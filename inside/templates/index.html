@@ -1,0 +1,64 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<!-- Header section
+================================================== -->
+<section id="header" class="header-one">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+          <div class="header-thumb">
+              <h1 class="wow fadeIn" data-wow-delay="0.2s">Introduce Recognize bubble sheet</h1>
+              <!-- <h1 class="wow fadeInUp" data-wow-delay="0.2s">With Android + OpenCV</h1> -->
+              <h1 class="wow fadeInUp" data-wow-delay="0.2s" style="color: #f34e4e; letter-spacing: 0.2rem; text-transform: none; ">Donate as you can - Get source code as you need</h1>
+              <!-- <h1 class="wow fadeInUp" data-wow-delay="0.2s" style="color: red">Discount 40% this month</h1> -->
+          </div>
+			</div>
+
+		</div>
+	</div>		
+</section>
+
+
+<!-- Portfolio section
+================================================== -->
+<section id="portfolio">
+   <div class="container">
+      <div class="row">
+
+         <div class="col-md-12 col-sm-12">
+            
+               <!-- iso section -->
+               <div class="iso-section wow fadeInUp" data-wow-delay="0.2s">
+                    <!-- iso box section -->
+                    <div class="iso-box-section wow fadeInUp" data-wow-delay="0.2s">
+                       <div class="iso-box-wrapper col4-iso-box">
+                        {% for item in projects %}
+                          <div class="iso-box col-md-6 col-sm-6">
+                             <div class="portfolio-thumb">
+                                <img src="static/images/{{ item['img'] }}" class="img-responsive" alt="Portfolio">
+                                   <div class="portfolio-overlay">
+                                       <a href="project/{{ item['id'] }}/{{ item['slug_title'] }}.html">
+                                      <div class="portfolio-item">
+                                            <i class="fa fa-link"></i>
+                                            <h2>{{ item['title'] }}</h2>
+                                         </div>
+                                           </a>
+                                   </div>
+                             </div>
+                          </div>
+                        {% endfor %}
+                        </div>
+                    </div>
+
+               </div>
+
+         </div>
+
+      </div>
+   </div>
+</section>
+
+ {% endblock %}
