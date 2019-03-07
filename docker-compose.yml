@@ -22,15 +22,15 @@ services:
 #    - "27017:27017"
 #    networks:
 #    - same-network
-  redis:
-    container_name: redis_test
-    image: redis:3.2.11-alpine
-    entrypoint: redis-server --stop-writes-on-bgsave-error no
-    restart: always
-    ports:
-    - "6379:6379"
-    networks:
-    - same-network
+#  redis:
+#    container_name: redis_test
+#    image: redis:3.2.11-alpine
+#    entrypoint: redis-server --stop-writes-on-bgsave-error no
+#    restart: always
+#    ports:
+#    - "6379:6379"
+#    networks:
+#    - same-network
 
 networks:
   same-network:
