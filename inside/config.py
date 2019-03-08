@@ -92,7 +92,7 @@ class DefaultConfig(BaseConfig):
                 {
                     'name': 'Bebiano Quines',
                     'country': 'Philippines',
-                    'value': 20
+                    'value': 40
                 }
             ]
 
@@ -149,11 +149,6 @@ class DefaultConfig(BaseConfig):
                     'name': 'Enkhsaikhan Tuguldur',
                     'country': 'Mongolia',
                     'value': 70
-                },
-                {
-                    'name': 'Bebiano Quines',
-                    'country': 'Philippines',
-                    'value': 20
                 }
             ]
         }
