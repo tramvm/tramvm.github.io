@@ -23,6 +23,12 @@ def about():
     return render_template('about.html', page_title=page_title)
 
 
+@site.route('/privacy')
+def privacy():
+    page_title = "Privacy Policy"
+    return render_template('privacy.html', page_title=page_title)
+
+
 @site.route('/contact.html')
 @site.route('/contact')
 def contact():

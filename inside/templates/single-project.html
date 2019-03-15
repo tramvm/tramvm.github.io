@@ -1,9 +1,6 @@
 {% extends "layout.html" %}
 
 {% block body %}
-
-    <script src="https://www.paypal.com/sdk/js?client-id=AcQ79_H254vyx1WW46oSTM5_CCcvIxVp9iUL3yovfPusRc2gwsUD6H5QYWITf07EL-P_R58IbZTDaft6
-"></script>
     <!-- Header section
     ================================================== -->
     <section id="header" class="header-two">
@@ -89,36 +86,6 @@
             -->
         </div>
         <script>
-            paypal.Buttons({
-                style: {
-                    color: 'gold',
-                    label: 'pay'
-                },
-                createOrder: function (data, actions) {
-                    return actions.order.create({
-                        purchase_units: [{
-                            amount: {
-                                value: '{{ project['price'] }}'
-                            }
-                        }]
-                    });
-                },
-                onApprove: function (data, actions) {
-                    return actions.order.capture().then(function (details) {
-                        alert('Thanks for your donate. The source code will be sent to email ' + details.payer.email_address + ' in a hour.');
-                        // Call your server to save the transaction
-                        return fetch('/paypal-transaction-complete', {
-                            method: 'post',
-                            body: JSON.stringify({
-                                order_id: data.orderID,
-                                payer_id: data.payerID,
-                                payer_email: details.payer.email_address,
-                                amount: details.purchase_units[0].amount.value
-                            })
-                        });
-                    });
-                }
-            }).render('#paypal-button-container');
         </script>
     </section>
 
