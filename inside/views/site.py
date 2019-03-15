@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from flask import (Blueprint, render_template, current_app, redirect, request)
+from flask import (Blueprint, render_template, current_app, redirect, request, send_from_directory, safe_join)
 from ..utils import sentry_log_activity
 import json
 
@@ -90,3 +90,9 @@ def message():
 def single_post():
     page_title = "About Source code How to recognize bubble sheet with Android and OpenCV"
     return render_template('single-post.html', page_title=page_title)
+
+
+@site.route('/robots.txt')
+@site.route('/favicon.ico')
+def static_from_root():
+    return send_from_directory(current_app.static_folder, request.path[1:])
