@@ -38,7 +38,7 @@ class DefaultConfig(BaseConfig):
             'id': "1",
             'title': 'Recognize bubble sheet with Android and OpenCV from 10 to 100 questions',
             'short_title': 'Recognize from 10 to 100 questions',
-            'price': 50,
+            'price': 30,
             'hit_donate': 3000,
             'total_donate': 523,
             'slug_title': 'source-code-recognize-bubble-sheet-with-android-and-opencv-from-10-to-100-questions',
@@ -57,15 +57,16 @@ class DefaultConfig(BaseConfig):
                 {
                     'name': 'Last Update',
                     'value': 'Mar 01, 2019'
-                },
-                {
-                    'name': 'Visitor',
-                    'value': '2800+'
-                },
-                {
-                    'name': 'Donators',
-                    'value': 16
                 }
+                # ,
+                # {
+                #     'name': 'Visitor',
+                #     'value': '2800+'
+                # },
+                # {
+                #     'name': 'Donators',
+                #     'value': 16
+                # }
 
             ],
             'donators': [
@@ -101,7 +102,7 @@ class DefaultConfig(BaseConfig):
             'id': "2",
             'title': 'Recognize bubble sheet and manage Students, Classes, Subjects',
             'short_title': 'Recognize bubble sheet and manage students',
-            'price': 65,
+            'price': 30,
             'hit_donate': 4000,
             'total_donate': 473,
             'slug_title': 'source-code-recognize-bubble-sheet-with-android-opencv-and-manage-students-classes-subjects',
@@ -118,15 +119,16 @@ class DefaultConfig(BaseConfig):
                 {
                     'name': 'Last Update',
                     'value': 'Feb 25, 2019'
-                },
-                {
-                    'name': 'Visitor',
-                    'value': '1600+'
-                },
-                {
-                    'name': 'Donators',
-                    'value': 12
                 }
+                #,
+                # {
+                #     'name': 'Visitor',
+                #     'value': '1600+'
+                # },
+                # {
+                #     'name': 'Donators',
+                #     'value': 12
+                # }
 
             ],
             'donators': [
