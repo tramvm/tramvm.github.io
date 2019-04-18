@@ -11,6 +11,7 @@ services:
       - mongo
     networks:
       - same-network
+    restart: always
 #  mongo:
 #    container_name: mongo_test
 #    image: mongo
