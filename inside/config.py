@@ -38,7 +38,7 @@ class DefaultConfig(BaseConfig):
             'id': "1",
             'title': 'Recognize bubble sheet with Android and OpenCV from 10 to 100 questions',
             'short_title': 'Recognize from 10 to 100 questions',
-            'price': 30,
+            'price': 50,
             'hit_donate': 3000,
             'total_donate': 523,
             'slug_title': 'source-code-recognize-bubble-sheet-with-android-and-opencv-from-10-to-100-questions',
@@ -89,11 +89,6 @@ class DefaultConfig(BaseConfig):
                     'name': 'Dutta Prosenjit',
                     'country': 'United States',
                     'value': 90
-                },
-                {
-                    'name': 'Bebiano Quines',
-                    'country': 'Philippines',
-                    'value': 40
                 }
             ]
 
@@ -102,7 +97,7 @@ class DefaultConfig(BaseConfig):
             'id': "2",
             'title': 'Recognize bubble sheet and manage Students, Classes, Subjects',
             'short_title': 'Recognize bubble sheet and manage students',
-            'price': 30,
+            'price': 50,
             'hit_donate': 4000,
             'total_donate': 473,
             'slug_title': 'source-code-recognize-bubble-sheet-with-android-opencv-and-manage-students-classes-subjects',
