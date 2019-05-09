@@ -157,7 +157,7 @@ class DefaultConfig(BaseConfig):
             'hit_donate': 3000,
             'total_donate': 473,
             'slug_title': 'source-code-recognize-bubble-sheet-with-android-opencv',
-            'img': 'project2.png',
+            'img': 'project3.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/SHHYEzJpedo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'description': '<p>This project purpose help students build there final project for graduation at school. '
                            'This project also help teachers build their tool to manage they students exams quickly. Or this '
