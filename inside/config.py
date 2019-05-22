@@ -71,7 +71,7 @@ class DefaultConfig(BaseConfig):
             'id': "2",
             'title': 'Recognize bubble sheet with Android and OpenCV from 10 to 100 questions',
             'short_title': 'Recognize from 10 to 100 questions',
-            'price': 45,
+            'price': 40,
             'hit_donate': 2000,
             'total_donate': 523,
             'slug_title': 'source-code-recognize-bubble-sheet-with-android-and-opencv-from-10-to-100-questions',
