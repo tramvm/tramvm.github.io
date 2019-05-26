@@ -195,6 +195,7 @@ class DefaultConfig(BaseConfig):
             'description': '<p>Chrome extension features:</p>'
                            '<ul>'
                            '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
+                           '<li>auto refresh page until time come. Make sure you first guy go to this site</li>'
                            '<li>auto fill captcha</li>'
                            '<li>auto fill all fields</li>'
                            '<li>auto refresh captcha if can not recognize captcha</li>'
@@ -202,6 +203,7 @@ class DefaultConfig(BaseConfig):
                            '</ul>'
                            '<p>After get extension, extract it using winrar. After that you just replace demo data by your personal data in file content.js from line 161 to line 179. Then import extension to your chrome and use.</p>'
                            '<p>No need to install any additional software.</p>'
+                           '<p>Tips: open 3-5 tab for each data to make high success accurate.</p>'
                            '<p>If you need above features, just make donation and get the extension.</p>',
             'info': [
                 {
