@@ -195,10 +195,10 @@ class DefaultConfig(BaseConfig):
             'description': '<p>Chrome extension features:</p>'
                            '<ul>'
                            '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
-                           'auto fill captcha</li>'
-                           'auto fill on fields</li>'
-                           'auto refresh captcha if can not recognize captcha</li>'
-                           'auto submit and click Proceed for payment and go to Payment method input</li>'
+                           '<li>auto fill captcha</li>'
+                           '<li>auto fill on fields</li>'
+                           '<li>auto refresh captcha if can not recognize captcha</li>'
+                           '<li>auto submit and click Proceed for payment and go to Payment method input</li>'
                            '</ul>'
                            '<p>If you need above features, just make donation and get the extension</p>',
             'info': [
