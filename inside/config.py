@@ -200,7 +200,7 @@ class DefaultConfig(BaseConfig):
                            '<li>auto refresh captcha if can not recognize captcha</li>'
                            '<li>auto submit and click Proceed for payment and go to Payment method input</li>'
                            '</ul>'
-                           '<p>If you need above features, just make donation and get the extension</p>',
+                           '<p>If you need above features, just make donation and get the extension.</p>',
             'info': [
                 {
                     'name': 'Last Update',
