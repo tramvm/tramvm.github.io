@@ -200,6 +200,7 @@ class DefaultConfig(BaseConfig):
                            '<li>auto refresh captcha if can not recognize captcha</li>'
                            '<li>auto submit and click Proceed for payment and go to Payment method input</li>'
                            '</ul>'
+                           '<p>After get extension, extract it using winrar. After that you just replace demo data by your personal data. Then import extension to your chrome and use. DO NEED TO INSTALL ANY.</p>'
                            '<p>If you need above features, just make donation and get the extension.</p>',
             'info': [
                 {
