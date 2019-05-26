@@ -199,7 +199,8 @@ class DefaultConfig(BaseConfig):
                            'auto fill on fields</li>'
                            'auto refresh captcha if can not recognize captcha</li>'
                            'auto submit and click Proceed for payment and go to Payment method input</li>'
-                           '</ul>',
+                           '</ul>'
+                           '<p>If you need above features, just make donation and get the extension</p>',
             'info': [
                 {
                     'name': 'Last Update',
