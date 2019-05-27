@@ -87,6 +87,7 @@ def message():
                 'message': request.form['message']
             }}
     }
+    print "================ Message ==================="
     print data
     sentry_log_activity('User message to contact ' + request.form['email'], data)
     return redirect('index')
