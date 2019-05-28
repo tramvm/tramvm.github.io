@@ -223,6 +223,43 @@ class DefaultConfig(BaseConfig):
             ],
             'donators': [
             ]
+        },
+        {
+            'id': "5",
+            'title': 'Rohtang permits auto click Proceed for Payment',
+            'short_title': 'Rohtang permits auto click Proceed for Payment',
+            'price': 10,
+            'hit_donate': 100,
+            'total_donate': 15,
+            'slug_title': 'fastly-rohtang-permit-auto-click-proceed-for-payment',
+            'img': 'project4.png',
+            'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/K9FsVujC6ZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            'description': '<p>Chrome extension features:</p>'
+                           '<ul>'
+                           '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
+                           '<li>auto click Proceed for payment and go to Payment method input</li>'
+                           '</ul>'
+                           '<p>No need to install any additional software.</p>'
+                           '<p>Limit maximum 3PC.</p>'
+                           '<p>If you need above features, just make donation and get the extension.</p>',
+            'info': [
+                {
+                    'name': 'Last Update',
+                    'value': 'May 28, 2019'
+                }
+                # ,
+                # {
+                #     'name': 'Visitor',
+                #     'value': '1600+'
+                # },
+                # {
+                #     'name': 'Donators',
+                #     'value': 7
+                # }
+
+            ],
+            'donators': [
+            ]
         }
     ]
 
