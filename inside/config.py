@@ -184,8 +184,8 @@ class DefaultConfig(BaseConfig):
         },
         {
             'id': "4",
-            'title': 'Rohtang permits auto fill info',
-            'short_title': 'Rohtang permits auto fill info',
+            'title': '100% workinng Rohtang permits auto fill info',
+            'short_title': '100% workinng Rohtang permits auto fill info',
             'price': 30,
             'hit_donate': 100,
             'total_donate': 15,
@@ -204,7 +204,7 @@ class DefaultConfig(BaseConfig):
                            '<p>After get extension, extract it using winrar. After that you just replace demo data by your personal data in file content.js from line 161 to line 179. Then import extension to your chrome and use.</p>'
                            '<p>No need to install any additional software.</p>'
                            '<p>Limit maximum 2 session at the same time.</p>'
-                           '<p>If you need above features, just make donation and get the extension.</p>',
+                           '<p>If you need succeed booking, just make donation and get the extension.</p>',
             'info': [
                 {
                     'name': 'Last Update',
