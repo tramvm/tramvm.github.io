@@ -192,7 +192,8 @@ class DefaultConfig(BaseConfig):
             'slug_title': 'fastly-rohtang-permit',
             'img': 'project4.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/Ih248Z6OSCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            'description': '<p>Chrome extension features:</p>'
+            'description': '<p><strong>Only pay attention if you need succeed booking on Rohtang.</strong></p>' 
+                            '<p>Chrome extension features:</p>'
                            '<ul>'
                            '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
                            '<li>auto refresh page until time come. Make sure you first guy go to this site</li>'
@@ -204,7 +205,7 @@ class DefaultConfig(BaseConfig):
                            '<p>After get extension, extract it using winrar. After that you just replace demo data by your personal data in file content.js from line 161 to line 179. Then import extension to your chrome and use.</p>'
                            '<p>No need to install any additional software.</p>'
                            '<p>Limit maximum 2 session at the same time.</p>'
-                           '<p>If you need succeed booking, just make donation and get the extension.</p>',
+                           '<p>If you need this extension, just make donation and get the extension.</p>',
             'info': [
                 {
                     'name': 'Last Update',
