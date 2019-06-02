@@ -191,7 +191,7 @@ class DefaultConfig(BaseConfig):
             'total_donate': 15,
             'slug_title': 'fastly-rohtang-permit',
             'img': 'project4.png',
-            'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/K9FsVujC6ZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/Ih248Z6OSCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'description': '<p>Chrome extension features:</p>'
                            '<ul>'
                            '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
