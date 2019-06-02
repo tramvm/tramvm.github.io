@@ -186,7 +186,7 @@ class DefaultConfig(BaseConfig):
             'id': "4",
             'title': 'Rohtang permits auto fill info',
             'short_title': 'Rohtang permits auto fill info',
-            'price': 25,
+            'price': 35,
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'fastly-rohtang-permit',
@@ -203,8 +203,7 @@ class DefaultConfig(BaseConfig):
                            '</ul>'
                            '<p>After get extension, extract it using winrar. After that you just replace demo data by your personal data in file content.js from line 161 to line 179. Then import extension to your chrome and use.</p>'
                            '<p>No need to install any additional software.</p>'
-                           '<p>Limit maximum 3 PCs.</p>'
-                           '<p>Tips: open 3-5 tab for each data to make high success accurate.</p>'
+                           '<p>Limit maximum 2 session at the same time.</p>'
                            '<p>If you need above features, just make donation and get the extension.</p>',
             'info': [
                 {
