@@ -241,7 +241,7 @@ class DefaultConfig(BaseConfig):
                            '<li>auto click Proceed for payment and go to Payment method input</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
-                           '<p>Limit maximum 2 PCs.</p>'
+                           '<p>One order limited maximum 3 permits at same time. One strong PC can make at least 12 permit per day.</p>'
                            '<p>If you need above features, just make donation and get the extension.</p>',
             'info': [
                 {
