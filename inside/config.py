@@ -229,7 +229,7 @@ class DefaultConfig(BaseConfig):
             'id': "5",
             'title': 'Rohtang permits auto click Proceed for Payment',
             'short_title': 'Rohtang permits auto click Proceed for Payment',
-            'price': 9,
+            'price': 8,
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'fastly-rohtang-permit-auto-click-proceed-for-payment',
