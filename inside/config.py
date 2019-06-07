@@ -186,7 +186,7 @@ class DefaultConfig(BaseConfig):
             'id': "4",
             'title': '100% working Rohtang permits auto fill info',
             'short_title': '100% working Rohtang permits auto fill info',
-            'price': 35,
+            'price': 30,
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'fastly-rohtang-permit',
