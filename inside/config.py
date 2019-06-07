@@ -197,7 +197,7 @@ class DefaultConfig(BaseConfig):
                            '<ul>'
                            '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
                            '<li>auto refresh page until time come. Make sure you first guy go to this site</li>'
-                           '<li>auto fill captcha math expression (coming soon)</li>'
+                           '<li>auto fill captcha math expression</li>'
                            '<li>auto fill all fields without captcha</li>'
                            '<li>auto refresh captcha if can not recognize captcha</li>'
                            '<li>auto submit and click Proceed for payment and go to Payment method input</li>'
