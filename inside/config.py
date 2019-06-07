@@ -204,7 +204,6 @@ class DefaultConfig(BaseConfig):
         #                    '</ul>'
         #                    '<p>After get extension, extract it using winrar. After that you just replace demo data by your personal data in file content.js from line 161 to line 179. Then import extension to your chrome and use.</p>'
         #                    '<p>No need to install any additional software.</p>'
-        #                    '<p>Limit maximum 2 session at the same time.</p>'
         #                    '<p>If you need this extension, just make donation and get the extension.</p>',
         #     'info': [
         #         {
