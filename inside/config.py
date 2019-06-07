@@ -184,8 +184,8 @@ class DefaultConfig(BaseConfig):
         },
         {
             'id': "4",
-            'title': '100% working Rohtang permits auto fill info',
-            'short_title': '100% working Rohtang permits auto fill info',
+            'title': 'Version 2.0 - 100% working Rohtang permits auto fill info',
+            'short_title': '100% working Rohtang permits auto fill info version 2.0',
             'price': 30,
             'hit_donate': 100,
             'total_donate': 15,
