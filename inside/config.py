@@ -186,13 +186,13 @@ class DefaultConfig(BaseConfig):
             'id': "4",
             'title': 'Version 2.0 - 100% working Rohtang permits auto fill info',
             'short_title': '100% working Rohtang permits auto fill info version 2.0',
-            'price': 30,
+            'price': 25,
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'fastly-rohtang-permit',
             'img': 'project4.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/38LbaBDXJAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            'description': '<p><strong>Only pay attention if you need succeed booking on Rohtang.</strong></p>' 
+            'description': '<p><strong>Only pay attention if you need succeed booking on Rohtang. And send an email workspace.gold@gmail.com to get demo video if you need.</strong></p>' 
                             '<p>Chrome extension features:</p>'
                            '<ul>'
                            '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
