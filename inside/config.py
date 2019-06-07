@@ -184,8 +184,8 @@ class DefaultConfig(BaseConfig):
         },
         {
             'id': "4",
-            'title': '100% working Rohtang permits auto fill info without Captcha',
-            'short_title': '100% working Rohtang permits auto fill info without Captcha',
+            'title': '100% working Rohtang permits auto fill info',
+            'short_title': '100% working Rohtang permits auto fill info',
             'price': 30,
             'hit_donate': 100,
             'total_donate': 15,
@@ -197,12 +197,12 @@ class DefaultConfig(BaseConfig):
                            '<ul>'
                            '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
                            '<li>auto refresh page until time come. Make sure you first guy go to this site</li>'
-                           # '<li>auto fill captcha</li>'
+                           '<li>auto fill captcha math expression (coming soon)</li>'
                            '<li>auto fill all fields without captcha</li>'
-                           # '<li>auto refresh captcha if can not recognize captcha</li>'
+                           '<li>auto refresh captcha if can not recognize captcha</li>'
                            '<li>auto submit and click Proceed for payment and go to Payment method input</li>'
                            '</ul>'
-                           '<p>After get extension, extract it using winrar. After that you just replace demo data by your personal data in file content.js from line 161 to line 179. Then import extension to your chrome and use.</p>'
+                           '<p>After get extension via email, extract it using winrar. After that you just replace demo data by your personal data in file content.js from line 161 to line 179. Then import extension to your chrome and use.</p>'
                            '<p>No need to install any additional software.</p>'
                            '<p>If you need this extension, just make donation and get the extension.</p>',
             'info': [
