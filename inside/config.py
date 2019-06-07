@@ -199,7 +199,7 @@ class DefaultConfig(BaseConfig):
                            '<li>auto refresh page until time come. Make sure you first guy go to this site</li>'
                            # '<li>auto fill captcha</li>'
                            '<li>auto fill all fields without captcha</li>'
-                           '<li>auto refresh captcha if can not recognize captcha</li>'
+                           # '<li>auto refresh captcha if can not recognize captcha</li>'
                            '<li>auto submit and click Proceed for payment and go to Payment method input</li>'
                            '</ul>'
                            '<p>After get extension, extract it using winrar. After that you just replace demo data by your personal data in file content.js from line 161 to line 179. Then import extension to your chrome and use.</p>'
