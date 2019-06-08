@@ -191,7 +191,7 @@ class DefaultConfig(BaseConfig):
             'total_donate': 15,
             'slug_title': 'fastly-rohtang-permit',
             'img': 'project4_2.png',
-            'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/38LbaBDXJAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/blBGvf8G_8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'description': '<p><strong>Only pay attention if you need succeed booking on Rohtang. And send an email workspace.gold@gmail.com to get demo video if you need.</strong></p>'
                             '<p>Chrome extension features:</p>'
                            '<ul>'
