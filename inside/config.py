@@ -182,48 +182,48 @@ class DefaultConfig(BaseConfig):
                 }
             ]
         },
-        {
-            'id': "4",
-            'title': 'Version 2.0 - 100% working Rohtang permits auto fill info',
-            'short_title': '100% working Rohtang permits auto fill info version 2.0',
-            'price': 20,
-            'hit_donate': 100,
-            'total_donate': 15,
-            'slug_title': 'fastly-rohtang-permit',
-            'img': 'project4_2.png',
-            'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/38LbaBDXJAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            'description': '<p><strong>Only pay attention if you need succeed booking on Rohtang. And send an email workspace.gold@gmail.com to get demo video if you need.</strong></p>' 
-                            '<p>Chrome extension features:</p>'
-                           '<ul>'
-                           '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
-                           '<li>auto refresh page until time come. Make sure you first guy go to this site</li>'
-                           '<li><strong>auto fill captcha math expression</strong></li>'
-                           '<li>auto fill all fields</li>'
-                           '<li>auto refresh captcha if can not recognize captcha</li>'
-                           '<li>auto submit and click Proceed for payment and go to Payment method input</li>'
-                           '</ul>'
-                           '<p>After get extension via email, extract it using winrar. After that you just replace demo data by your personal data in file content.js from line 161 to line 179. Then import extension to your chrome and use.</p>'
-                           '<p>No need to install any additional software.</p>'
-                           '<p>If you need this extension, just make donation and get the extension.</p>',
-            'info': [
-                {
-                    'name': 'Last Update',
-                    'value': 'May 26, 2019'
-                }
-                # ,
-                # {
-                #     'name': 'Visitor',
-                #     'value': '1600+'
-                # },
-                # {
-                #     'name': 'Donators',
-                #     'value': 7
-                # }
-
-            ],
-            'donators': [
-            ]
-        },
+        # {
+        #     'id': "4",
+        #     'title': 'Version 2.0 - 100% working Rohtang permits auto fill info',
+        #     'short_title': '100% working Rohtang permits auto fill info version 2.0',
+        #     'price': 20,
+        #     'hit_donate': 100,
+        #     'total_donate': 15,
+        #     'slug_title': 'fastly-rohtang-permit',
+        #     'img': 'project4_2.png',
+        #     'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/38LbaBDXJAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        #     'description': '<p><strong>Only pay attention if you need succeed booking on Rohtang. And send an email workspace.gold@gmail.com to get demo video if you need.</strong></p>'
+        #                     '<p>Chrome extension features:</p>'
+        #                    '<ul>'
+        #                    '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
+        #                    '<li>auto refresh page until time come. Make sure you first guy go to this site</li>'
+        #                    '<li><strong>auto fill captcha math expression</strong></li>'
+        #                    '<li>auto fill all fields</li>'
+        #                    '<li>auto refresh captcha if can not recognize captcha</li>'
+        #                    '<li>auto submit and click Proceed for payment and go to Payment method input</li>'
+        #                    '</ul>'
+        #                    '<p>After get extension via email, extract it using winrar. After that you just replace demo data by your personal data in file content.js from line 161 to line 179. Then import extension to your chrome and use.</p>'
+        #                    '<p>No need to install any additional software.</p>'
+        #                    '<p>If you need this extension, just make donation and get the extension.</p>',
+        #     'info': [
+        #         {
+        #             'name': 'Last Update',
+        #             'value': 'May 26, 2019'
+        #         }
+        #         # ,
+        #         # {
+        #         #     'name': 'Visitor',
+        #         #     'value': '1600+'
+        #         # },
+        #         # {
+        #         #     'name': 'Donators',
+        #         #     'value': 7
+        #         # }
+        #
+        #     ],
+        #     'donators': [
+        #     ]
+        # },
         {
             'id': "5",
             'title': 'Rohtang permits auto click Proceed for Payment',
