@@ -104,10 +104,3 @@ def single_post():
 @site.route('/favicon.ico')
 def static_from_root():
     return send_from_directory(current_app.static_folder, request.path[1:])
-
-
-@site.route('/player-videojs')
-def test_player():
-    projects = "Test LIVE"
-    page_title = "Test LIVE"
-    return render_template('player-videojs.html', projects=projects, page_title=page_title)
