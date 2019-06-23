@@ -36,6 +36,7 @@ class DefaultConfig(BaseConfig):
     PROJECTS = [
         {
             'id': "1",
+            'listed': True,
             'title': 'Recognize bubble sheet and input correct answers with Android + OpenCV',
             'short_title': 'Recognize bubble sheet and correct answers',
             'price': 60,
@@ -69,6 +70,7 @@ class DefaultConfig(BaseConfig):
         },
         {
             'id': "2",
+            'listed': True,
             'title': 'Recognize bubble sheet with Android and OpenCV from 10 to 100 questions',
             'short_title': 'Recognize from 10 to 100 questions',
             'price': 45,
@@ -128,6 +130,7 @@ class DefaultConfig(BaseConfig):
         },
         {
             'id': "3",
+            'listed': True,
             'title': 'Recognize bubble sheet and manage Students, Classes, Subjects',
             'short_title': 'Recognize bubble sheet and manage students',
             'price': 55,
@@ -184,6 +187,7 @@ class DefaultConfig(BaseConfig):
         },
         {
             'id': "4",
+            'listed': False,
             'title': 'Rohtang permits auto fill info',
             'short_title': 'Rohtang permits auto fill info version 2.0',
             'price': 15,
@@ -226,6 +230,7 @@ class DefaultConfig(BaseConfig):
         },
         {
             'id': "5",
+            'listed': False,
             'title': 'Rohtang permits auto click Proceed for Payment',
             'short_title': 'Rohtang permits auto click Proceed for Payment',
             'price': 8,
@@ -263,6 +268,7 @@ class DefaultConfig(BaseConfig):
         },
         {
             'id': "6",
+            'listed': False,
             'title': 'SSMMS Online sand booking auto fill info',
             'short_title': 'SSMMS Online sand booking auto fill info',
             'price': 15,
