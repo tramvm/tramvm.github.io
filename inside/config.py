@@ -37,7 +37,7 @@ class DefaultConfig(BaseConfig):
         {
             'id': "7",
             'listed': True,
-            'title': 'Recognize Braille table and convert to text with Android + OpenCV',
+            'title': 'Braille reader with Android + OpenCV',
             'short_title': 'Braille reader with Android + OpenCV',
             'price': 165,
             'hit_donate': 3000,
