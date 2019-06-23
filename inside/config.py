@@ -35,11 +35,44 @@ class DefaultConfig(BaseConfig):
 
     PROJECTS = [
         {
+            'id': "7",
+            'listed': True,
+            'title': 'Recognize Braille table and convert to text with Android + OpenCV',
+            'short_title': 'Braille reader with Android + OpenCV',
+            'price': 165,
+            'hit_donate': 3000,
+            'total_donate': 473,
+            'slug_title': 'source-code-braille-reader-with-android-opencv',
+            'img': 'project7.png',
+            'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/0fUAauz1nVc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            'description': '<p>This project purpose help students build there final project for graduation at school. '
+                           'This project also help teachers build their tool to manage they students exams quickly. Or this '
+                           'is also the prototype for professional developers to make a crazy recognize exam service.</p> '
+                           '<p>The clear source code with many comments insight, and overview document help the owner understand easily.</p>'
+                           '<p>Highlight features:</p>'
+                           '</p><ul>'
+                           '<li>Capture braille dots with android phone</li>'
+                           '<li>Recognize braille dots and convert to text, number</li>'
+                           '</ul>'
+                           '<p>The project is developed using Android, OpenCV and build on Android studio. After make the '
+                           'donate, you will receive the source code, template, apk file and overview document via your Paypal email. Just email to workspace.gold@gmail.com '
+                           'when you need support to setting project, build, run the app.</p>',
+            'info': [
+                {
+                    'name': 'Last Update',
+                    'value': 'June 23, 2019'
+                }
+
+            ],
+            'donators': [
+            ]
+        },
+        {
             'id': "1",
             'listed': True,
             'title': 'Recognize bubble sheet and input correct answers with Android + OpenCV',
             'short_title': 'Recognize bubble sheet and correct answers',
-            'price': 60,
+            'price': 80,
             'hit_donate': 3000,
             'total_donate': 473,
             'slug_title': 'source-code-recognize-bubble-sheet-with-android-opencv',
@@ -73,7 +106,7 @@ class DefaultConfig(BaseConfig):
             'listed': True,
             'title': 'Recognize bubble sheet with Android and OpenCV from 10 to 100 questions',
             'short_title': 'Recognize from 10 to 100 questions',
-            'price': 45,
+            'price': 60,
             'hit_donate': 2000,
             'total_donate': 523,
             'slug_title': 'source-code-recognize-bubble-sheet-with-android-and-opencv-from-10-to-100-questions',
@@ -133,7 +166,7 @@ class DefaultConfig(BaseConfig):
             'listed': True,
             'title': 'Recognize bubble sheet and manage Students, Classes, Subjects',
             'short_title': 'Recognize bubble sheet and manage students',
-            'price': 55,
+            'price': 70,
             'hit_donate': 2000,
             'total_donate': 473,
             'slug_title': 'source-code-recognize-bubble-sheet-with-android-opencv-and-manage-students-classes-subjects',
