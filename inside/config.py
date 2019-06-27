@@ -57,7 +57,7 @@ class DefaultConfig(BaseConfig):
                            '</ul>'
                            '<p><strong>You will receive your donation back if it is not working.</strong></p>'
                            '<p>The project is developed using Android, OpenCV and build on Android studio. After make the '
-                           'donate, you will receive the source code, template, apk file and overview document via your email. Just email to workspace.gold@gmail.com '
+                           'donate, you will receive the source code, template, apk file and overview document via your email. Just email to <strong>workspace.gold@gmail.com</strong> '
                            'when you need support to setting project, build, run the app.</p>',
             'info': [
                 {
@@ -92,7 +92,7 @@ class DefaultConfig(BaseConfig):
                            '</ul>'
                            '<p><strong>You will receive your donation back if it is not working.</strong></p>'
                            '<p>The project is developed using Android, OpenCV and build on Android studio. After make the '
-                           'donate, you will receive the source code, template, apk file and overview document via your Paypal email. Just email to workspace.gold@gmail.com '
+                           'donate, you will receive the source code, template, apk file and overview document via your Paypal email. Just email to <strong>workspace.gold@gmail.com</strong> '
                            'when you need support to setting project, build, run the app.</p>',
             'info': [
                 {
@@ -124,7 +124,7 @@ class DefaultConfig(BaseConfig):
                            '<p><strong>You will receive your donation back if it is not working.</strong></p>'
                            '<p>The project is developed using Android, OpenCV and build on Android studio. After make the '
                            'donate, you will receive the source code, template, apk file and overview document via your Paypal email. And the source code belong to you, you can do anythings with it. '
-                           'Just send email to workspace.gold@gmail.com when you need support to setting project, build, run the app.</p>',
+                           'Just send email to <strong>workspace.gold@gmail.com</strong> when you need support to setting project, build, run the app.</p>',
             'info': [
                 {
                     'name': 'Last Update',
@@ -182,7 +182,7 @@ class DefaultConfig(BaseConfig):
                            '<p><strong>You will receive your donation back if it is not working.</strong></p>'
                            '<p>The clear source code with many comments insight, and overview document help the owner understand easily.</p>'
                            '<p>The project is developed using Android, OpenCV and build on Android studio. After make the '
-                           'donate, you will receive the source code, template, apk file and overview document via your Paypal email. Just email to workspace.gold@gmail.com '
+                           'donate, you will receive the source code, template, apk file and overview document via your Paypal email. Just email to <strong>workspace.gold@gmail.com</strong> '
                            'when you need support to setting project, build, run the app.</p>',
             'info': [
                 {
@@ -234,7 +234,7 @@ class DefaultConfig(BaseConfig):
             'slug_title': 'fastly-rohtang-permit',
             'img': 'project4_2.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/blBGvf8G_8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            'description': '<p><strong>Only pay attention if you need succeed booking on Rohtang. And send an email workspace.gold@gmail.com to get demo video if you need.</strong></p>'
+            'description': '<p><strong>Only pay attention if you need succeed booking on Rohtang. And send an email <strong>workspace.gold@gmail.com</strong> to get demo video if you need.</strong></p>'
                             '<p>Chrome extension features:</p>'
                            '<ul>'
                            '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
