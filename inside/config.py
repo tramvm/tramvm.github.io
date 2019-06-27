@@ -47,20 +47,22 @@ class DefaultConfig(BaseConfig):
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/0fUAauz1nVc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'description': '<p>This project purpose help students build there final project for graduation at school. '
                            'This project also help teachers build their tool to manage they students exams quickly. Or this '
-                           'is also the prototype for professional developers to make a crazy recognize exam service.</p> '
+                           'is also the prototype for professional developers to make a crazy recognize braille service.</p> '
                            '<p>The clear source code with many comments insight, and overview document help the owner understand easily.</p>'
                            '<p>Highlight features:</p>'
                            '</p><ul>'
                            '<li>Capture braille dots with android phone</li>'
                            '<li>Recognize braille dots and convert to text, number</li>'
+                           '<li>Speech the braille text</li>'
                            '</ul>'
+                           '<p><strong>You will receive your donation back if it is not working.</strong></p>'
                            '<p>The project is developed using Android, OpenCV and build on Android studio. After make the '
-                           'donate, you will receive the source code, template, apk file and overview document via your Paypal email. Just email to workspace.gold@gmail.com '
+                           'donate, you will receive the source code, template, apk file and overview document via your email. Just email to workspace.gold@gmail.com '
                            'when you need support to setting project, build, run the app.</p>',
             'info': [
                 {
                     'name': 'Last Update',
-                    'value': 'June 23, 2019'
+                    'value': 'June 27, 2019'
                 }
 
             ],
@@ -88,6 +90,7 @@ class DefaultConfig(BaseConfig):
                            '<li>Recognize template 10 to 100 answers</li>'
                            '<li>Show result correct/number of questions, show score</li>'
                            '</ul>'
+                           '<p><strong>You will receive your donation back if it is not working.</strong></p>'
                            '<p>The project is developed using Android, OpenCV and build on Android studio. After make the '
                            'donate, you will receive the source code, template, apk file and overview document via your Paypal email. Just email to workspace.gold@gmail.com '
                            'when you need support to setting project, build, run the app.</p>',
@@ -118,6 +121,7 @@ class DefaultConfig(BaseConfig):
                            '<p>Professional developers use this source to make a recognize exam service.</p>'
                            '<p>Or someone just need this source code to make crazy thing.</p></blockquote>'
                            '<p>The clear source code with many comments insight, and overview document help the owner understand easily.</p>'
+                           '<p><strong>You will receive your donation back if it is not working.</strong></p>'
                            '<p>The project is developed using Android, OpenCV and build on Android studio. After make the '
                            'donate, you will receive the source code, template, apk file and overview document via your Paypal email. And the source code belong to you, you can do anythings with it. '
                            'Just send email to workspace.gold@gmail.com when you need support to setting project, build, run the app.</p>',
@@ -175,6 +179,7 @@ class DefaultConfig(BaseConfig):
             'description': '<p>This project purpose help students build there final project for graduation at school. '
                            'This project also help teachers build their tool to manage they students exams quickly. Or this '
                            'is also the prototype for professional developers to make a crazy recognize exam service.</p> '
+                           '<p><strong>You will receive your donation back if it is not working.</strong></p>'
                            '<p>The clear source code with many comments insight, and overview document help the owner understand easily.</p>'
                            '<p>The project is developed using Android, OpenCV and build on Android studio. After make the '
                            'donate, you will receive the source code, template, apk file and overview document via your Paypal email. Just email to workspace.gold@gmail.com '
