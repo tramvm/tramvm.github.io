@@ -44,16 +44,16 @@ class DefaultConfig(BaseConfig):
             'total_donate': 473,
             'slug_title': 'source-code-braille-reader-with-android-opencv',
             'img': 'project7.png',
-            'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/0fUAauz1nVc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/C-afb8nGT7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'description': '<p>This project purpose help students build there final project for graduation at school. '
                            'This project also help teachers build their tool to manage they students exams quickly. Or this '
                            'is also the prototype for professional developers to make a crazy recognize braille service.</p> '
                            '<p>The clear source code with many comments insight, and overview document help the owner understand easily.</p>'
                            '<p>Highlight features:</p>'
                            '</p><ul>'
-                           '<li>Capture braille dots with android phone</li>'
+                           '<li>Capture braille dots with android camera</li>'
                            '<li>Recognize braille dots and convert to text, number</li>'
-                           '<li>Speech the braille text</li>'
+                           '<li>Speak the braille text</li>'
                            '</ul>'
                            '<p><strong>You will receive your donation back if it is not working.</strong></p>'
                            '<p>The project is developed using Android, OpenCV and build on Android studio. After make the '
