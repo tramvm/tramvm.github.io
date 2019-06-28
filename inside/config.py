@@ -37,12 +37,12 @@ class DefaultConfig(BaseConfig):
         {
             'id': "7",
             'listed': True,
-            'title': 'Braille reader with Android + OpenCV',
-            'short_title': 'Braille reader with Android + OpenCV',
+            'title': 'Braille reader and Speech with Android + OpenCV',
+            'short_title': 'Braille reader and Speech with Android + OpenCV',
             'price': 165,
             'hit_donate': 3000,
             'total_donate': 473,
-            'slug_title': 'source-code-braille-reader-with-android-opencv',
+            'slug_title': 'source-code-braille-to-speech-with-android-opencv',
             'img': 'project7.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/C-afb8nGT7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'description': '<p>This project purpose help students build there final project for graduation at school. '
