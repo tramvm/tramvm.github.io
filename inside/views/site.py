@@ -42,7 +42,7 @@ def project(id, any):
     projects = current_app.config['PROJECTS']
     for p in projects:
         if p['id'] == id:
-            return render_template('single-project.html', page_title=p['title'], project=p)
+            return render_template('single-project.html', page_title=p['title'], project=p, keywords=p['keywords'])
 
     # Redirect home
     return redirect('index')

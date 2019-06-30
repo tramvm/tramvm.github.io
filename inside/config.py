@@ -73,8 +73,8 @@ class DefaultConfig(BaseConfig):
                 }
 
             ],
-            'donators': [
-            ]
+            'donators': [],
+            'keywords': 'braille recognition, braille to speech, braille converter, recognize braille alphabet, read braille, extra braille, braille reader, braille scanner, braille to text, braille mobile reader, braille image to text, braille translator, braille application, braille translator camera, braille text speech, blind reader, how to convert braille to text, android text to speech, braille dots, accubraille, blindness reader, blind, brailliant, loss vision reader, dots scan, obr',
         },
         {
             'id': "1",
@@ -109,7 +109,8 @@ class DefaultConfig(BaseConfig):
 
             ],
             'donators': [
-            ]
+            ],
+            'keywords': 'vgrade, omr, recognize sheet, sheet scanner, omr scanner, omr scanning, sheet recognize, exam scanner, omr reader, recognize table, recognize bubble, quiz scanner, quiz reader, grading, bubble scanner, omr solution, Optical Mark Recognition, cham trac nghiem, multiple choice, zipgrade cheat, scan ljk, koreksi ljk',
         },
         {
             'id': "2",
@@ -169,7 +170,8 @@ class DefaultConfig(BaseConfig):
                     'country': 'United States',
                     'value': 90
                 }
-            ]
+            ],
+            'keywords': 'vgrade, omr, recognize sheet, sheet scanner, omr scanner, omr scanning, sheet recognize, exam scanner, omr reader, recognize table, recognize bubble, quiz scanner, quiz reader, grading, bubble scanner, omr solution, Optical Mark Recognition, cham trac nghiem, multiple choice, zipgrade cheat, scan ljk, koreksi ljk',
 
         },
         {
@@ -228,7 +230,8 @@ class DefaultConfig(BaseConfig):
                     'country': 'Mongolia',
                     'value': 70
                 }
-            ]
+            ],
+            'keywords': 'vgrade, omr, recognize sheet, sheet scanner, omr scanner, omr scanning, sheet recognize, exam scanner, omr reader, recognize table, recognize bubble, quiz scanner, quiz reader, grading, bubble scanner, omr solution, Optical Mark Recognition, cham trac nghiem, multiple choice, zipgrade cheat, scan ljk, koreksi ljk',
         },
         {
             'id': "4",
@@ -271,7 +274,8 @@ class DefaultConfig(BaseConfig):
 
             ],
             'donators': [
-            ]
+            ],
+            'keywords': 'auto captcha, auto captcha extension, auto fill captcha, chrome captcha auto solver, bypass captchca, Rohtangpermits, Rohtangpermits fast login, Rohtangpermits fastly submit, Rohtangpermits auto fill, fastly rohtang permit, fast rohtang submit, rohtang permit auto, quick rohtange permit, rohtang permit trick, rohtang permit tip, trick quickly rohtang submit, quick rohtang form, rohtang quick submit vehicle, rohtang fast register, captcha solver,Online Permit for Rohtang Pass',
         },
         {
             'id': "5",
@@ -309,7 +313,8 @@ class DefaultConfig(BaseConfig):
 
             ],
             'donators': [
-            ]
+            ],
+            'keywords': 'auto captcha, auto captcha extension, auto fill captcha, chrome captcha auto solver, bypass captchca, Rohtangpermits, Rohtangpermits fast login, Rohtangpermits fastly submit, Rohtangpermits auto fill, fastly rohtang permit, fast rohtang submit, rohtang permit auto, quick rohtange permit, rohtang permit trick, rohtang permit tip, trick quickly rohtang submit, quick rohtang form, rohtang quick submit vehicle, rohtang fast register, captcha solver,Online Permit for Rohtang Pass',
         },
         {
             'id': "6",
@@ -342,7 +347,8 @@ class DefaultConfig(BaseConfig):
 
             ],
             'donators': [
-            ]
+            ],
+            'keywords': 'autofill captcha, auto captcha, ssmms, ssmms auto captcha, ssmms auto fill, sand booking, sand in telangana, ssmms tricks, sand booking website, sand online booking, ssmms login quickly, ssmms fastly auto fill captcha, tsmdc online booking, bypass captcha, tmsdc auto captcha, tsmdc quickly login, captcha solver',
         }
     ]
 
