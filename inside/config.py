@@ -53,7 +53,7 @@ class DefaultConfig(BaseConfig):
                            '<ul>'
                            '<li> Easy to Use: The scanning process is simple and quick and you can process a Braille-sheet in a single scan. Pressing the scan icon starts the process of scanning. After less than thirty seconds the information is presented on the screen and speak up the result. You can continue to scan the next page or start to use the information.</li>'
                            '<li> No Braille Knowledge required: Braille in a small letter/ document or a complete Book can be scanned into the computer just like a normal printed paper is scanned. And you do not need to know Braille to do this.</li>'
-                           '<li> Accurate Recognition: The recognition from a good quality Braille document is excellent but even when scanning an old worn-out Braille document; the fault frequency is surprisingly low. By using standard Windows functions your Braille handling system will be complete and effective.</li>'
+                           '<li> Accurate Recognition: The recognition from a good quality Braille document is excellent but even when scanning an old worn-out Braille document; the fault frequency is surprisingly low. By using standard Windows functions your Braille handling system will be complete and effective.</li></ul>'
 
                            '<p>The clear source code with many comments insight, and overview document help the owner understand easily.</p>'
                            '<p>Highlight features:</p>'
