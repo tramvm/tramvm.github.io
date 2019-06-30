@@ -45,9 +45,16 @@ class DefaultConfig(BaseConfig):
             'slug_title': 'source-code-braille-to-speech-with-android-opencv',
             'img': 'project7.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/C-afb8nGT7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            'description': '<p>This project purpose help students build there final project for graduation at school. '
+            'description': '<p>The basic braille alphabet, braille numbers, braille punctuation and special symbols characters are constructed from six dots. These braille dots are positioned like the figure six on a die, in a grid of two parallel vertical lines of three dots each. From the six dots that make up the basic grid, 64 different configurations can be created.</p>'
+
+                           '<p>This project purpose help students build there final project for graduation at school. '
                            'This project also help teachers build their tool to manage they students exams quickly. Or this '
-                           'is also the prototype for professional developers to make a crazy recognize braille service.</p> '
+                           'is also the prototype for professional developers to make a crazy recognize braille application.</p> '
+                           '<ul>'
+                           '<li> Easy to Use: The scanning process is simple and quick and you can process a Braille-sheet in a single scan. Pressing the scan icon starts the process of scanning. After less than thirty seconds the information is presented on the screen and speak up the result. You can continue to scan the next page or start to use the information.</li>'
+                           '<li> No Braille Knowledge required: Braille in a small letter/ document or a complete Book can be scanned into the computer just like a normal printed paper is scanned. And you do not need to know Braille to do this.</li>'
+                           '<li> Accurate Recognition: The recognition from a good quality Braille document is excellent but even when scanning an old worn-out Braille document; the fault frequency is surprisingly low. By using standard Windows functions your Braille handling system will be complete and effective.</li>'
+
                            '<p>The clear source code with many comments insight, and overview document help the owner understand easily.</p>'
                            '<p>Highlight features:</p>'
                            '</p><ul>'
@@ -235,7 +242,7 @@ class DefaultConfig(BaseConfig):
             'img': 'project4_2.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/blBGvf8G_8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'description': '<p><strong>Only pay attention if you need succeed booking on Rohtang. And send an email <strong>workspace.gold@gmail.com</strong> to get demo video if you need.</strong></p>'
-                            '<p>Chrome extension features:</p>'
+                           '<p>Chrome extension features:</p>'
                            '<ul>'
                            '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
                            '<li>auto refresh page until time come. Make sure you first guy go to this site</li>'
