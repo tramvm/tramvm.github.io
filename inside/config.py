@@ -337,6 +337,7 @@ class DefaultConfig(BaseConfig):
                            '<li>support to install via teamviewer in case you need</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
+                           "<p>Some person already using it. Why don't you try it?</p>"
                            #'<p>Limit maximum 2 PCs.</p>'
                            '<p>If you need above features, just make donation and get the extension.</p>',
             'info': [
