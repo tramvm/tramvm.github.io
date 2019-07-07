@@ -327,7 +327,7 @@ class DefaultConfig(BaseConfig):
             'slug_title': 'ssmms-online-sand-booking-auto-fill-info',
             'img': 'project6.jpg',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1Yuvusp_F2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            'description': '<p>Chrome extension features:</p>'
+            'description': '<p>Available for both browsers Mozilla firefox and Chrome. Features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
                            '<li>auto fill captcha (working with 2 patterns)</li>'
