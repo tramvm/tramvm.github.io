@@ -326,18 +326,18 @@ class DefaultConfig(BaseConfig):
             'total_donate': 15,
             'slug_title': 'ssmms-online-sand-booking-auto-fill-info',
             'img': 'project6.jpg',
-            'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/wA9piBYGG4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1Yuvusp_F2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'description': '<p>Chrome extension features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
-                           '<li>auto fill captcha</li>'
+                           '<li>auto fill captcha (working with 2 patterns)</li>'
                            '<li>auto fill username, password</li>'
                            '<li>auto login after 20s</li>'
                            '<li>lifetime usage until that site changed without control</li>'
                            '<li>support to install via teamviewer in case you need</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
-                           '<p>Limit maximum 2 PCs.</p>'
+                           #'<p>Limit maximum 2 PCs.</p>'
                            '<p>If you need above features, just make donation and get the extension.</p>',
             'info': [
                 {
