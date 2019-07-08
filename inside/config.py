@@ -342,8 +342,8 @@ class DefaultConfig(BaseConfig):
                            "<p>Some person already using it. Why don't you try it?</p>"
                            '<p>Trial verions:</p>'
                            '<ul>'
-                           '<li>Chrome/Chromium: http://bit.ly/ssmms_chrome</li>'
-                           '<li>Mozilla firefox: http://bit.ly/ssmms_mozilla</li>'
+                           '<li>Chrome/Chromium: <a href="http://bit.ly/ssmms_chrome">http://bit.ly/ssmms_chrome</a></li>'
+                           '<li>Mozilla firefox: <a href="http://bit.ly/ssmms_mozilla">http://bit.ly/ssmms_mozilla</a></li>'
                            '</ul>'
                            #'<p><strong>Unlimited usage for each order.</strong></p>'
                            '<p>If you need above features, just make donation and get the extension.</p>',
