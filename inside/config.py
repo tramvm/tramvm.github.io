@@ -339,7 +339,7 @@ class DefaultConfig(BaseConfig):
                            '<li>Coming soon features: timer killer, customer order captcha auto fill.</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
-                           "<p>Some person already using it. Why don't you try it?</p>"
+                           "<p>11 person already using it. Why don't you try it?</p>"
                            '<p>Trial verions:</p>'
                            '<ul>'
                            '<li>Chrome/Chromium: <a href="http://bit.ly/ssmms_chrome" style="text-decoration: underline; color: #0000cd; ">http://bit.ly/ssmms_chrome</a></li>'
