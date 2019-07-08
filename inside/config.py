@@ -325,7 +325,7 @@ class DefaultConfig(BaseConfig):
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'ssmms-online-sand-booking-auto-fill-info',
-            'img': 'project6.jpg',
+            'img': 'project6.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1Yuvusp_F2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'description': '<p><strong>Unlimited usage for each order</strong>. Available for both browsers Mozilla firefox, Chrome and Chromium, updating for order browsers. Features:</p>'
                            '<ul>'
