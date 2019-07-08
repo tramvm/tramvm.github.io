@@ -335,6 +335,8 @@ class DefaultConfig(BaseConfig):
                            '<li>auto login after 20s</li>'
                            '<li>lifetime usage until that site changed without control</li>'
                            '<li>support to install via teamviewer in case you need</li>'
+                           '<li>Free update when have news</li>'
+                           '<li>Coming soon features: timer killer, customer order captcha auto fill.</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
                            "<p>Some person already using it. Why don't you try it?</p>"
