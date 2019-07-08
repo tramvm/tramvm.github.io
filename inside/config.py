@@ -346,7 +346,7 @@ class DefaultConfig(BaseConfig):
                            '<li>Mozilla firefox: <a href="http://bit.ly/ssmms_mozilla" style="text-decoration: underline; color: #0000cd; ">http://bit.ly/ssmms_mozilla</a></li>'
                            '</ul>'
                            #'<p><strong>Unlimited usage for each order on a browser.</strong></p>'
-                           '<p>If you need above features, just make donation and get the extension.</p>',
+                           '<p>With above features, $19 for each access token. Unlimited package $280. NO Extra cost. Free for remote support.</p>',
             'info': [
                 {
                     'name': 'Last Update',
