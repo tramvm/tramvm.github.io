@@ -321,7 +321,7 @@ class DefaultConfig(BaseConfig):
             'listed': True,
             'title': 'SSMMS Online sand booking auto fill info',
             'short_title': 'SSMMS Online sand booking auto fill info',
-            'price': 20,
+            'price': 17,
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'ssmms-online-sand-booking-auto-fill-info',
