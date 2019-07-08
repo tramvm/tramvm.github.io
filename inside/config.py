@@ -342,8 +342,8 @@ class DefaultConfig(BaseConfig):
                            "<p>Some person already using it. Why don't you try it?</p>"
                            '<p>Trial verions:</p>'
                            '<ul>'
-                           '<li>Chrome/Chromium: https://www.dropbox.com/s/g5vd53h9m5sk9oe/chrome_ext_ssmms_v2.0_trial.rar?dl=0</li>'
-                           '<li>Mozilla firefox: https://www.dropbox.com/s/d9kybbf96d4qqkp/auto_username_password_captcha_ssmms-2.1-fx.xpi?dl=0</li>'
+                           '<li>Chrome/Chromium: http://bit.ly/ssmms_chrome</li>'
+                           '<li>Mozilla firefox: http://bit.ly/ssmms_mozilla</li>'
                            '</ul>'
                            #'<p><strong>Unlimited usage for each order.</strong></p>'
                            '<p>If you need above features, just make donation and get the extension.</p>',
