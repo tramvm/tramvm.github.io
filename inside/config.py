@@ -318,7 +318,7 @@ class DefaultConfig(BaseConfig):
         },
         {
             'id': "6",
-            'listed': False,
+            'listed': True,
             'title': 'SSMMS Online sand booking auto fill info',
             'short_title': 'SSMMS Online sand booking auto fill info',
             'price': 15,
@@ -327,7 +327,7 @@ class DefaultConfig(BaseConfig):
             'slug_title': 'ssmms-online-sand-booking-auto-fill-info',
             'img': 'project6.jpg',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1Yuvusp_F2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            'description': '<p>Available for both browsers Mozilla firefox and Chrome. Features:</p>'
+            'description': '<p><strong>Unlimited usage for each order</strong>. Available for both browsers Mozilla firefox, Chrome and Chromium, updating for order browsers. Features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
                            '<li>auto fill captcha (working with 2 patterns)</li>'
@@ -338,7 +338,7 @@ class DefaultConfig(BaseConfig):
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
                            "<p>Some person already using it. Why don't you try it?</p>"
-                           #'<p>Limit maximum 2 PCs.</p>'
+                           #'<p><strong>Unlimited usage for each order.</strong></p>'
                            '<p>If you need above features, just make donation and get the extension.</p>',
             'info': [
                 {
