@@ -327,7 +327,7 @@ class DefaultConfig(BaseConfig):
             'slug_title': 'ssmms-online-sand-booking-auto-fill-info',
             'img': 'project6.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1Yuvusp_F2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            'description': '<p><strong>Unlimited usage for each order</strong>. Available for both browsers Mozilla firefox, Chrome and Chromium, updating for order browsers. Features:</p>'
+            'description': '<p><strong>Unlimited usage for each order on a browser</strong>. Available for both browsers Mozilla firefox, Chrome and Chromium, updating for order browsers. Features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
                            '<li>auto fill captcha (working with 2 patterns)</li>'
@@ -345,7 +345,7 @@ class DefaultConfig(BaseConfig):
                            '<li>Chrome/Chromium: <a href="http://bit.ly/ssmms_chrome" style="text-decoration: underline; color: #0000cd; ">http://bit.ly/ssmms_chrome</a></li>'
                            '<li>Mozilla firefox: <a href="http://bit.ly/ssmms_mozilla" style="text-decoration: underline; color: #0000cd; ">http://bit.ly/ssmms_mozilla</a></li>'
                            '</ul>'
-                           #'<p><strong>Unlimited usage for each order.</strong></p>'
+                           #'<p><strong>Unlimited usage for each order on a browser.</strong></p>'
                            '<p>If you need above features, just make donation and get the extension.</p>',
             'info': [
                 {
