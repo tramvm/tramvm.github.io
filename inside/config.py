@@ -327,7 +327,7 @@ class DefaultConfig(BaseConfig):
             'slug_title': 'ssmms-auto-captcha-online-sand-booking-auto-fill-info',
             'img': 'project6.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1Yuvusp_F2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            'description': '<p><strong>Unlimited usage for each order on a browser</strong>. Available for both browsers Mozilla firefox, Chrome and Chromium, updating for order browsers. Features:</p>'
+            'description': '<p><strong>Unlimited usage for each order on a browser</strong>. Tampermonkey script available for almost browsers. Features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
                            '<li>auto fill captcha (working with 3 patterns 99% correct, last pattern 70% correct)</li>'
@@ -339,14 +339,8 @@ class DefaultConfig(BaseConfig):
                            '<li>Coming soon features: timer killer, customer order captcha auto fill.</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
-                           "<p>11 person already using this extension. Why don't you try it?</p>"
-                           '<p>Trial verions:</p>'
-                           '<ul>'
-                           '<li>Chrome/Chromium: <a href="http://bit.ly/ssmms_chrome" style="text-decoration: underline; color: #0000cd; ">http://bit.ly/ssmms_chrome</a></li>'
-                           '<li>Mozilla firefox: <a href="http://bit.ly/ssmms_mozilla" style="text-decoration: underline; color: #0000cd; ">http://bit.ly/ssmms_mozilla</a></li>'
-                           '</ul>'
                            #'<p><strong>Unlimited usage for each order on a browser.</strong></p>'
-                           '<p>With above features, $19 for each access token. Unlimited package $260. NO Extra cost. Free for remote support.</p>',
+                           '<p>With above features, unlimited usage package $220. NO Extra cost. Free for remote support.</p>',
             'info': [
                 {
                     'name': 'Last Update',
