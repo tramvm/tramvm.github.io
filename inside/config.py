@@ -339,7 +339,6 @@ class DefaultConfig(BaseConfig):
                            '<li>Coming soon features: timer killer, customer order captcha auto fill.</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
-                           #'<p><strong>Unlimited usage for each order on a browser.</strong></p>'
                            '<p>With above features, unlimited usage package $220. NO Extra cost. Free for remote support.</p>',
             'info': [
                 {
