@@ -330,7 +330,7 @@ class DefaultConfig(BaseConfig):
             'description': '<p><strong>Unlimited usage for each order on a browser</strong>. Tampermonkey script available for almost browsers. Features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
-                           '<li>auto fill captcha (working with 3 patterns 99% correct, last pattern 70% correct)</li>'
+                           '<li>auto fill captcha (working with 3 patterns 99.99% correct, last pattern 90% correct)</li>'
                            '<li>auto fill username, password</li>'
                            '<li>auto login after 20s</li>'
                            '<li>lifetime usage until that site changed without control</li>'
