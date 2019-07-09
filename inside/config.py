@@ -325,7 +325,7 @@ class DefaultConfig(BaseConfig):
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'ssmms-auto-captcha-online-sand-booking-auto-fill-info',
-            'img': 'project6.png',
+            'img': 'project6_1.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1Yuvusp_F2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'description': '<p><strong>Unlimited usage for each order on a browser</strong>. Tampermonkey script available for almost browsers. Features:</p>'
                            '<ul>'
