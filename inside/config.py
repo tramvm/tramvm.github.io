@@ -326,7 +326,7 @@ class DefaultConfig(BaseConfig):
             'total_donate': 15,
             'slug_title': 'ssmms-auto-captcha-online-sand-booking-auto-fill-info',
             'img': 'project6_1.png',
-            'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1Yuvusp_F2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/AoO66_me1L0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'description': '<p><strong>Unlimited usage for each order on a browser</strong>. Tampermonkey script available for almost browsers. Features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
