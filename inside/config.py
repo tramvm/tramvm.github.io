@@ -340,8 +340,8 @@ class DefaultConfig(BaseConfig):
                            '<li>Coming soon features: timer killer, customer order captcha auto fill.</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
-                           '<p>With above features, $19 for one instance browser, $99 for up to 10 browsers.'
-                           'For Unlimited usage package $219. NO Extra cost. NO limite number of browsers. NO limit number of requests per day.</p>',
+                           '<p>With above features, $19 for unlimited usage on one instance browser, $99 for unlimited usage up to 10 browsers.</p>'
+                           '<p>For Unlimited usage package $219. NO Extra cost. NO limit number of browsers. NO limit number of requests per day.</p>',
             'info': [
                 {
                     'name': 'Last Update',
