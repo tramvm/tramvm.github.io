@@ -336,12 +336,12 @@ class DefaultConfig(BaseConfig):
                            '<li>lifetime usage until that site changed without control</li>'
                            '<li>support to install via teamviewer in case you need</li>'
                            '<li>Free update when have news</li>'
-                           '<li>Free for remote support</li>'
                            '<li>Coming soon features: timer killer, customer order captcha auto fill.</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
                            '<p>With above features, $19 for unlimited usage on one instance browser, $99 for unlimited usage up to 10 browsers.</p>'
-                           '<p>For Unlimited usage package $219. NO Extra cost. Up to 50 browsers. NO limit number of requests per day.</p>',
+                           '<p>For Unlimited usage package $219. NO Extra cost. Up to 50 browsers. NO limit number of requests per day.</p>'
+                           '<p>If you need trial version, just send an email to workspace.gold@gmail.com</p>',
             'info': [
                 {
                     'name': 'Last Update',
