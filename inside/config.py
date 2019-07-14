@@ -339,7 +339,7 @@ class DefaultConfig(BaseConfig):
                            '<li>Coming soon features: timer killer, customer order captcha auto fill.</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
-                           '<p>With above features, unlimited usage package $220. NO Extra cost. Free for remote support.</p>',
+                           '<p>With above features, $19 for one instance browser. For Unlimited usage package $199. NO Extra cost. Free for remote support.</p>',
             'info': [
                 {
                     'name': 'Last Update',

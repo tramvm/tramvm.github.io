@@ -34,8 +34,13 @@
                     {% endfor %}
 
                     <a href="https://www.paypal.me/tramvm/{{ project['price'] }}" target="_blank"
-                       class="btn btn-warning  btn-lg btn-block" style="color: #242424">Donate and receive source
-                        code</a>
+                       class="btn btn-warning  btn-lg btn-block" style="color: #242424">
+                        {% if project['id'] == '6' %}
+                            Donate for 1 browser
+                        {% else %}
+                            Donate and receive source code
+                        {% endif %}
+                        </a>
                     <div id="paypal-button-containerXX" class="col-md-2 col-sm-7"></div>
                 </div>
 
