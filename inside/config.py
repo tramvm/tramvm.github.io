@@ -341,7 +341,7 @@ class DefaultConfig(BaseConfig):
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
                            '<p>With above features, $19 for unlimited usage on one instance browser, $99 for unlimited usage up to 10 browsers.</p>'
-                           '<p>For Unlimited usage package $219. NO Extra cost. NO limit number of browsers. NO limit number of requests per day.</p>',
+                           '<p>For Unlimited usage package $219. NO Extra cost. Up to 50 browsers. NO limit number of requests per day.</p>',
             'info': [
                 {
                     'name': 'Last Update',
