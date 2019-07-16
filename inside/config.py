@@ -339,8 +339,7 @@ class DefaultConfig(BaseConfig):
                            '<li>Coming soon features: timer killer, customer order captcha auto fill.</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
-                           '<p>With above features, $19 for unlimited usage on 2 instance browsers, $89 for unlimited usage up to 10 browsers.</p>'
-                           '<p>For Unlimited usage package $199. Up to 50 browsers. NO limit number of requests per day.</p>'
+                           '<p>With above features, $19 for unlimited usage on 2 instance browsers. $45 for unlimited usage up to 10 browsers. $149 for Up to 50 browsers. NO limit number of requests per day. NO limit using day.</p>'
                            '<p>If you need trial version, just send an email to workspace.gold@gmail.com</p>',
             'info': [
                 {
