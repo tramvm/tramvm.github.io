@@ -238,14 +238,14 @@ class DefaultConfig(BaseConfig):
             'listed': False,
             'title': 'Rohtang permits auto fill info',
             'short_title': 'Rohtang permits auto fill info version 2.0',
-            'price': 15,
+            'price': 35,
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'fastly-rohtang-permit',
             'img': 'project4_2.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/blBGvf8G_8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'description': '<p><strong>Only pay attention if you need succeed booking on Rohtang. And send an email <strong>workspace.gold@gmail.com</strong> to get demo video if you need.</strong></p>'
-                           '<p>Chrome extension features:</p>'
+                           '<p>Monkey script features:</p>'
                            '<ul>'
                            '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
                            '<li>auto refresh page until time come. Make sure you first guy go to this site</li>'
@@ -282,7 +282,7 @@ class DefaultConfig(BaseConfig):
             'listed': False,
             'title': 'Rohtang permits auto click Proceed for Payment',
             'short_title': 'Rohtang permits auto click Proceed for Payment',
-            'price': 8,
+            'price': 19,
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'fastly-rohtang-permit-auto-click-proceed-for-payment',
@@ -339,7 +339,7 @@ class DefaultConfig(BaseConfig):
                            '<li>Coming soon features: timer killer, customer order captcha auto fill.</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
-                           '<p>With above features, $19 for unlimited usage on 2 instance browsers. $45 for unlimited usage up to 10 browsers. $149 for Up to 50 browsers. NO limit number of requests per day. NO limit using day.</p>',
+                           '<p>With above features, $19 for unlimited usage on 2 instance browsers. $89 for unlimited usage up to 10 browsers. $149 for Up to 50 browsers. NO limit number of requests per day. NO limit using day.</p>',
             'info': [
                 {
                     'name': 'Last Update',
