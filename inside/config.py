@@ -330,7 +330,7 @@ class DefaultConfig(BaseConfig):
             'description': '<p><strong>Unlimited usage for each order on a browser</strong>. Tampermonkey script, Greasemonkey script available for almost browsers. Features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
-                           '<li>auto fill captcha (working with 3 patterns 99.99% correct, last pattern 90% correct)</li>'
+                           '<li>auto fill captcha (working with 3 patterns 99% correct, last pattern 90% correct)</li>'
                            '<li>auto fill username, password</li>'
                            '<li>auto login after 20s</li>'
                            '<li>lifetime usage until that site changed without control</li>'
@@ -339,7 +339,13 @@ class DefaultConfig(BaseConfig):
                            '<li>Coming soon features: timer killer, customer order captcha auto fill.</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
-                           '<p>With above features, $19 for unlimited usage on 2 instance browsers. $69 for unlimited usage up to 10 browsers. $169 for Up to 50 browsers. NO limit number of requests per day. NO limit using day.</p>',
+                           '<p>With above features:</p>'
+                           '<ul><li>$19 for unlimited usage on 2 instance browsers.</li>'
+                           '<li>$45 for unlimited usage up to 8 browsers.</li>'
+                           '<li>$89 for unlimited usage up to 20 browsers.</li>'
+                           '<li>$149 for Up to 50 browsers.</li>'
+                           '</ul>'
+                           '<p>NO limit number of requests per day. NO limit using day.</p>',
             'info': [
                 {
                     'name': 'Last Update',
