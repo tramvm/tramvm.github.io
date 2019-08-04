@@ -348,7 +348,7 @@ class DefaultConfig(BaseConfig):
             'info': [
                 {
                     'name': 'Last Update',
-                    'value': 'July 11, 2019'
+                    'value': 'August 05, 2019'
                 }
 
             ],
