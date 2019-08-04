@@ -340,9 +340,9 @@ class DefaultConfig(BaseConfig):
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
                            '<p>With above features:</p>'
-                           '<li>$99 for unlimited usage up to 10 browsers.</li>'
-                           '<li>$179 for unlimited usage up to 20 browsers.</li>'
-                           '<li>$230 for Up to 30 browsers.</li>'
+                           '<li>$59 for unlimited usage up to 10 browsers.</li>'
+                           '<li>$89 for unlimited usage up to 20 browsers.</li>'
+                           '<li>$179 for Up to 50 browsers.</li>'
                            '</ul>'
                            '<p>NO limit number of requests per day. NO limit using day.</p>',
             'info': [
