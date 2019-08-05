@@ -340,7 +340,7 @@ class DefaultConfig(BaseConfig):
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
                            '<p>With above features:</p>'
-                           '<li>$59 for unlimited usage up to 10 browsers.</li>'
+                           '<li>$69 for unlimited usage up to 10 browsers.</li>'
                            '<li>$89 for unlimited usage up to 20 browsers.</li>'
                            '<li>$179 for Up to 50 browsers.</li>'
                            '</ul>'
