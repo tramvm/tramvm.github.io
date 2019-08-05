@@ -106,7 +106,7 @@ def static_from_root():
     return send_from_directory(current_app.static_folder, request.path[1:])
 
 
-@site.route('/ssmms', methods=['POST'])
+@site.route('/ssmms', methods=['GET','POST'])
 def ssmms_link():
 
     token  = request.values.get('token')
