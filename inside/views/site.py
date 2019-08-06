@@ -108,10 +108,9 @@ def static_from_root():
 
 @site.route('/ssmms', methods=['GET','POST'])
 def ssmms_link():
-
-    token  = request.values.get('token')
+    token = request.values.get('token')
     print token
     if not token:
         return redirect('index')
     # Redirect home
-    return redirect(get_ssmms_link(token))
+    return redirect('https://captcha-api.tramvm.com/captcha/ssmms?token=' + token)
