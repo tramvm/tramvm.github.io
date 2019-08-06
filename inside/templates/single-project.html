@@ -51,6 +51,9 @@
                         <img src="/static/images/{{ project['img'] }}" class="img-responsive"
                              alt="Portfolio">
                     {% else %}
+                        <p>Bitcoin wallet: <strong>1HkwGvQgpgztNYdPus2FFMCXzeNpWMzNV</strong></p>
+                        <p><img src="/static/images/bitcoin_qrcode.png" class="img-responsive"
+                             alt="Portfolio"></p>
                         <p>Demo video:</p>
                         <div>{{ project['video_embed']|safe }}</div>
                     {% endif %}

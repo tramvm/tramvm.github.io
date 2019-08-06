@@ -321,7 +321,7 @@ class DefaultConfig(BaseConfig):
             'listed': True,
             'title': 'SSMMS auto captcha fastly | Online sand booking auto filling info with Tampermonkey script Greasemonkey script',
             'short_title': 'SSMMS auto captcha filling',
-            'price': 89,
+            'price': 129,
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'ssmms-auto-captcha-online-sand-booking-auto-fill-info',
@@ -339,10 +339,10 @@ class DefaultConfig(BaseConfig):
                            '<li>Coming soon features: timer killer, customer order captcha auto fill.</li>'
                            '</ul>'
                            '<p>No need to install any additional software.</p>'
-                           '<p>With above features:</p>'
-                           '<li>$179 for Up to 50 browsers.</li>'
-                           '<li>$89 for unlimited usage up to 20 browsers.</li>'
-                           '<li>$69 for unlimited usage up to 10 browsers.</li>'
+                           '<p>Price package above features:</p>'
+                           '<li>$189 for Up to 50 browsers.</li>'
+                           '<li>$129 for unlimited usage up to 20 browsers.</li>'
+                           '<li>$79 for unlimited usage up to 10 browsers.</li>'
                            '</ul>'
                            '<p>NO limit number of requests per day. NO limit using day.</p>',
             'info': [
