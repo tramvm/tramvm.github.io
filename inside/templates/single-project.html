@@ -32,15 +32,16 @@
                             <p>{{ item['value'] }}</p>
                         </div>
                     {% endfor %}
-
-                    <a href="https://www.paypal.me/tramvm/{{ project['price'] }}" target="_blank"
-                       class="btn btn-warning  btn-lg btn-block" style="color: #242424">
-                        {% if project['id'] == '6' %}
-                            Donate and Get
-                        {% else %}
-                            Donate and receive source code
-                        {% endif %}
+                    {% if project['id'] != '6' %}
+                        <a href="https://www.paypal.me/tramvm/{{ project['price'] }}" target="_blank"
+                           class="btn btn-warning  btn-lg btn-block" style="color: #242424">
+                            {% if project['id'] == '6' %}
+                                Donate and Get
+                            {% else %}
+                                Donate and receive source code
+                            {% endif %}
                         </a>
+                    {% endif %}
                     <div id="paypal-button-containerXX" class="col-md-2 col-sm-7"></div>
                 </div>
 
@@ -53,7 +54,7 @@
                     {% else %}
                         <p>Bitcoin wallet: <strong>1HkwGvQgpgztNYdPus2FFMCXzeNpWMzNV</strong></p>
                         <p><img src="/static/images/bitcoin_qrcode.png" class="img-responsive"
-                             alt="Portfolio"></p>
+                                alt="Portfolio"></p>
                         <p>Demo video:</p>
                         <div>{{ project['video_embed']|safe }}</div>
                     {% endif %}
