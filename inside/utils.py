@@ -23,6 +23,9 @@ import base64
 from slugify import slugify
 from unidecode import unidecode
 from paypalrestsdk import Order, ResourceNotFound
+from rijndael.cipher.crypt import new as newRij
+from rijndael.cipher.blockcipher import MODE_CBC
+import uuid
 
 
 VARCHAR_LEN_128 = 128
@@ -1287,3 +1290,40 @@ def process_paypal_order(order_id):
 
     except ResourceNotFound as error:
         print("Order Not Found")
+
+
+BLOCK_SIZE = 16
+KEY_HEX = '2CF92C76DEB98ADC19C5F2138D797D9003D9AE5BCFA223B097894DC47DDE20C2'
+IV_HEX = '13192C2C76797D8A8D90B9C5DCDEF2F9'
+
+KEY = None
+IV = None
+
+
+def initKey():
+    global KEY
+    global IV
+    KEY = KEY_HEX.decode("hex")
+    IV = IV_HEX.decode("hex")
+
+def enc(data):
+    initKey()
+    rjn = newRij(KEY, MODE_CBC, IV, blocksize=BLOCK_SIZE)
+    output = rjn.encrypt(data)
+    result = base64.urlsafe_b64encode(output)
+    return result
+
+def dec(data):
+    initKey()
+    input = base64.urlsafe_b64decode(data)
+    rjn = newRij(KEY, MODE_CBC, IV, blocksize=BLOCK_SIZE)
+    output = rjn.decrypt(input)
+    return output
+
+def generate_key():
+    data = str(uuid.uuid4()).replace('-', '1').upper()
+    return data
+
+def get_ssmms_link(token):
+    output = enc('LW|1.2|'+token[0, 12].upper()+'|' + generate_key())
+    return "https://onlinebooking.sand.telangana.gov.in/SPHJILAL/Masters/YUVA.aspx?DFGJ=" + output

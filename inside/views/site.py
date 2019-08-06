@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import (Blueprint, render_template, current_app, redirect, request, send_from_directory, safe_join)
-from ..utils import sentry_log_activity
+from ..utils import sentry_log_activity, get_ssmms_link
 import json
 
 site = Blueprint('site', __name__)
@@ -114,4 +114,4 @@ def ssmms_link():
     if not token:
         return redirect('index')
     # Redirect home
-    return redirect('https://onlinebooking.sand.telangana.gov.in/NET/Masters/KLMK.aspx?PRMS=hGCUiJy48Px/LtH4n8jwMblmU9k6i+I9pAjbicg6FQljaMSBCSp1z5aM1R0LKFO2HKTVM2JWmafmIW7mvLjyw4c/DJORzFik5DSxWG0d7R8E32TboqRno7TNIu5ZfgUQyxt9rwcfG8OUMhdtdqlBuXMIXmiPmM/jL6mA0caTPR5hEDBu53Jfxx0xq37XAt/WsEo5AFJEqwtlmx3Z/P4kiPuZ4E0vJgqlyqh4CWWGw0GH0qu9hONatZddvCkLXMxYwfzbquU/mA2uPuuR6FlbGRDnhPdAvSKQ5lK1p4cNT7K3F9jTU1XvH/17adOqmwz5dcMgH8xul3yskfbCG+FxeQ==&MACID=' + token)
+    return redirect(get_ssmms_link(token))
