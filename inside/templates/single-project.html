@@ -52,9 +52,11 @@
                         <img src="/static/images/{{ project['img'] }}" class="img-responsive"
                              alt="Portfolio">
                     {% else %}
+                        {% if project['id'] != '6' %}
                         <p>Bitcoin wallet: <strong>1HkwGvQgpgztNYdPus2FFMCXzeNpWMzNV</strong></p>
                         <p><img src="/static/images/bitcoin_qrcode.png" class="img-responsive"
-                                alt="Portfolio"></p>
+                                style="width: 200px;"></p>
+                            {% endif %}
                         <p>Demo video:</p>
                         <div>{{ project['video_embed']|safe }}</div>
                     {% endif %}
