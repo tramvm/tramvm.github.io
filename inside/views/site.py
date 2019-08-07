@@ -113,4 +113,4 @@ def ssmms_link():
     if not token:
         return redirect('index')
     # Redirect home
-    return redirect('https://captcha-api.tramvm.com/captcha/ssmms?token=' + token)
+    return redirect('index')
