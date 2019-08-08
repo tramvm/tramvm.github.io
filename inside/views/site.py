@@ -108,9 +108,8 @@ def static_from_root():
 
 @site.route('/ssmms', methods=['GET','POST'])
 def ssmms_link():
-    token = request.values.get('token')
-    print token
-    if not token:
-        return redirect('index')
-    # Redirect home
+    print "------------------"
+    print request.user_agent
+    print request.remote_addr
+
     return redirect('index')
