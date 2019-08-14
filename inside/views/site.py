@@ -36,7 +36,7 @@ def contact():
     return render_template('contact.html', page_title=page_title)
 
 
-@site.route('/project/<string:id>/<string:any>')
+@site.route('/project/<string:id>/<string:any>', methods=['GET', 'POST'])
 def project(id, any):
     print id, any
     projects = current_app.config['PROJECTS']
