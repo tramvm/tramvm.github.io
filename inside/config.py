@@ -328,7 +328,7 @@ class DefaultConfig(BaseConfig):
             'img': 'project6_1.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/aue1oEhIzpY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'video_embed2': '<iframe width="560" height="315" src="https://www.youtube.com/embed/fCulsNitEaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            'description': '<p><strong>Unlimited usage for each order on a browser</strong>. Tampermonkey script, Greasemonkey script available for almost browsers. Features:</p>'
+            'description': '<p><strong>Unlimited usage for each order on a browser</strong>. Tampermonkey script available for almost browsers. Features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
                            '<li>auto fill captcha 95% correct</li>'
@@ -336,7 +336,7 @@ class DefaultConfig(BaseConfig):
                            '<li>auto login after 20s</li>'
                            '<li>support to install via teamviewer in case you need</li>'
                            '</ul>'
-                           '<p>Make donation for above features.</p>',
+                           '<p>Make donation for above features and get resource.</p>',
             'info': [
                 {
                     'name': 'Last Update',
