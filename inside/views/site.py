@@ -39,6 +39,9 @@ def contact():
 @site.route('/project/<string:id>/<string:any>', methods=['GET', 'POST'])
 def project(id, any):
     print id, any
+    print "---------------"
+    #print request.get_data()
+    print "---------------"
     projects = current_app.config['PROJECTS']
     for p in projects:
         if p['id'] == id:
