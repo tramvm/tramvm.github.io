@@ -235,10 +235,10 @@ class DefaultConfig(BaseConfig):
         },
         {
             'id': "4",
-            'listed': False,
+            'listed': True,
             'title': 'Rohtang permits auto fill info',
             'short_title': 'Rohtang permits auto fill info version 2.0',
-            'price': 35,
+            'price': 55,
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'fastly-rohtang-permit',
@@ -279,7 +279,7 @@ class DefaultConfig(BaseConfig):
         },
         {
             'id': "5",
-            'listed': False,
+            'listed': True,
             'title': 'Rohtang permits auto click Proceed for Payment',
             'short_title': 'Rohtang permits auto click Proceed for Payment',
             'price': 19,
@@ -318,7 +318,7 @@ class DefaultConfig(BaseConfig):
         },
         {
              'id': "6",
-            'listed': False,
+            'listed': True,
             'title': 'SSMMS auto captcha fastly | Online sand booking auto filling info with Tampermonkey script Greasemonkey script',
              'short_title': 'SSMMS auto captcha',
             'price': 69,
