@@ -321,26 +321,28 @@ class DefaultConfig(BaseConfig):
             'listed': False,
             'title': 'SSMMS auto captcha fastly | Online sand booking auto filling info with Tampermonkey script Greasemonkey script',
              'short_title': 'SSMMS auto captcha',
-            'price': 99,
+            'price': 69,
             'hit_donate': 100,
             'total_donate': 15,
            'slug_title': 'ssmms-auto-captcha-online-sand-booking-auto-fill-info',
              'img': 'project6_1.png',
              'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/aue1oEhIzpY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'video_embed2': '<iframe width="560" height="315" src="https://www.youtube.com/embed/fCulsNitEaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-           'description': '<p><strong>Unlimited usage for each order on a browser</strong>. Tampermonkey script available for almost browsers. Features:</p>'
+           'description': '<p>Monkey script available for almost browsers. Features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
                           '<li>auto fill captcha 95% correct</li>'
                           '<li>auto fill username, password</li>'
                           '<li>auto login after 20s</li>'
+                          '<li>no limit IPs</li>'
+                          '<li>No limit devices</li>'
                           '<li>support to install via teamviewer in case you need</li>'
                           '</ul>'
                             '<p>Make donation for above features and get resource.</p>',
             'info': [
                 {
                    'name': 'Last Update',
-                    'value': 'Septemper 01, 2019'
+                    'value': 'Septemper 10, 2019'
                }
         
             ],
