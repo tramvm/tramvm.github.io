@@ -321,13 +321,13 @@ class DefaultConfig(BaseConfig):
             'listed': True,
             'title': 'SSMMS auto captcha fastly | Online sand booking auto filling info with Tampermonkey script Greasemonkey script',
              'short_title': 'SSMMS auto captcha',
-            'price': 69,
+            'price': 89,
             'hit_donate': 100,
             'total_donate': 15,
            'slug_title': 'ssmms-auto-captcha-online-sand-booking-auto-fill-info',
              'img': 'project6_1.png',
              'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/pmD1Lc6LsbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            'video_embed2': '<iframe width="560" height="315" src="https://www.youtube.com/embed/sA7xLgfcTG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            'video_embed2': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1BG5NSqVnao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
            'description': '<p>Monkey script available for almost browsers. Features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
