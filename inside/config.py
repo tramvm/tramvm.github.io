@@ -325,7 +325,7 @@ class DefaultConfig(BaseConfig):
             'hit_donate': 100,
             'total_donate': 15,
            'slug_title': 'ssmms-auto-captcha-online-sand-booking-auto-fill-info',
-             'img': 'project6_1.png',
+             'img': 'project6_2.png',
              'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/pmD1Lc6LsbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'video_embed2': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1BG5NSqVnao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
            'description': '<p>Monkey script available for almost browsers. </p>'
@@ -344,7 +344,7 @@ class DefaultConfig(BaseConfig):
             'info': [
                 {
                    'name': 'Last Update',
-                    'value': 'Septemper 19, 2019'
+                    'value': 'Septemper 20, 2019'
                }
         
             ],
