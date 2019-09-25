@@ -330,7 +330,7 @@ class DefaultConfig(BaseConfig):
             'video_embed2': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1BG5NSqVnao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
            'description': '<p>Monkey script available for almost browsers. </p>'
                           '<p><a href="https://www.dropbox.com/s/2qte27luehy6krv/WS_Auto_Otp_3.0.apk?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD WS_Auto_OTP ver 3: </a></p>'
-                          '<p><a href="https://www.dropbox.com/s/iizvwmobief8z6p/new_ssmms_auto_captcha.js?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Auto captcha</a></>'
+                          '<p><a href="https://www.dropbox.com/s/c0rg69dqespww5x/auto_captcha_5.6.js?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Auto captcha 5.6</a></>'
                           '<p>Features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
@@ -345,7 +345,7 @@ class DefaultConfig(BaseConfig):
             'info': [
                 {
                    'name': 'Last Update',
-                    'value': 'Septemper 20, 2019'
+                    'value': 'Septemper 25, 2019'
                }
         
             ],
