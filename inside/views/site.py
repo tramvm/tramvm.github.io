@@ -36,9 +36,12 @@ def contact():
     return render_template('contact.html', page_title=page_title)
 
 
-@site.route('/project/<string:id>/<string:any>')
+@site.route('/project/<string:id>/<string:any>', methods=['GET', 'POST'])
 def project(id, any):
     print id, any
+    print "---------------"
+    #print request.get_data()
+    print "---------------"
     projects = current_app.config['PROJECTS']
     for p in projects:
         if p['id'] == id:
@@ -108,9 +111,8 @@ def static_from_root():
 
 @site.route('/ssmms', methods=['GET','POST'])
 def ssmms_link():
-    token = request.values.get('token')
-    print token
-    if not token:
-        return redirect('index')
-    # Redirect home
+    print "------------------"
+    print request.user_agent
+    print request.remote_addr
+
     return redirect('index')

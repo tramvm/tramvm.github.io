@@ -52,13 +52,17 @@
                         <img src="/static/images/{{ project['img'] }}" class="img-responsive"
                              alt="Portfolio">
                     {% else %}
-                        {% if project['id'] == '6' %}
-                        <p>Bitcoin wallet: <strong>1HkwGvQgpgztNYdPus2FFMCXzeNpWMzNV</strong></p>
-                        <p><img src="/static/images/bitcoin_qrcode.png" class="img-responsive"
-                                style="width: 200px;"></p>
-                            {% endif %}
-                        <p>Demo video:</p>
+                        {% if project['id'] == '6X' %}
+                            <p>Bitcoin wallet: <strong>1HkwGvQgpgztNYdPus2FFMCXzeNpWMzNV</strong></p>
+                            <p><img src="/static/images/bitcoin_qrcode.png" class="img-responsive"
+                                    style="width: 200px;"></p>
+                        {% endif %}
+                        <p>Demo video 1:</p>
                         <div>{{ project['video_embed']|safe }}</div>
+                        {% if 'video_embed2' in project %}
+                            <p>Demo video 2:</p>
+                            <div>{{ project['video_embed2']|safe }}</div>
+                        {% endif %}
                     {% endif %}
 
                 </div>

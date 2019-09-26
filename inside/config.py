@@ -235,10 +235,10 @@ class DefaultConfig(BaseConfig):
         },
         {
             'id': "4",
-            'listed': False,
+            'listed': True,
             'title': 'Rohtang permits auto fill info',
             'short_title': 'Rohtang permits auto fill info version 2.0',
-            'price': 35,
+            'price': 55,
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'fastly-rohtang-permit',
@@ -279,7 +279,7 @@ class DefaultConfig(BaseConfig):
         },
         {
             'id': "5",
-            'listed': False,
+            'listed': True,
             'title': 'Rohtang permits auto click Proceed for Payment',
             'short_title': 'Rohtang permits auto click Proceed for Payment',
             'price': 19,
@@ -316,46 +316,43 @@ class DefaultConfig(BaseConfig):
             ],
             'keywords': 'auto captcha, auto captcha extension, auto fill captcha, chrome captcha auto solver, bypass captchca, Rohtangpermits, Rohtangpermits fast login, Rohtangpermits fastly submit, Rohtangpermits auto fill, fastly rohtang permit, fast rohtang submit, rohtang permit auto, quick rohtange permit, rohtang permit trick, rohtang permit tip, trick quickly rohtang submit, quick rohtang form, rohtang quick submit vehicle, rohtang fast register, captcha solver,Online Permit for Rohtang Pass',
         },
-        # {
-        #     'id': "6",
-        #     'listed': True,
-        #     'title': 'SSMMS auto captcha fastly | Online sand booking auto filling info with Tampermonkey script Greasemonkey script',
-        #     'short_title': 'SSMMS auto captcha filling UPDATING',
-        #     'price': 129,
-        #     'hit_donate': 100,
-        #     'total_donate': 15,
-        #     'slug_title': 'ssmms-auto-captcha-online-sand-booking-auto-fill-info',
-        #     'img': 'project6_1.png',
-        #     'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/9edCiGrwbUY?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-        #     'description': '<p><strong>Unlimited usage for each order on a browser</strong>. Tampermonkey script, Greasemonkey script available for almost browsers. Features:</p>'
-        #                    '<ul>'
-        #                    '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
-        #                    '<li>auto fill captcha (working with 3 patterns 99% correct, last pattern 90% correct)</li>'
-        #                    '<li>auto fill username, password</li>'
-        #                    '<li>auto login after 20s</li>'
-        #                    '<li>lifetime usage until that site changed without control</li>'
-        #                    '<li>support to install via teamviewer in case you need</li>'
-        #                    '<li>Free update when have news</li>'
-        #                    '<li>Coming soon features: timer killer, customer order captcha auto fill.</li>'
-        #                    '</ul>'
-        #                    '<p>No need to install any additional software.</p>'
-        #                    '<p>Price package above features:</p>'
-        #                    '<li>$189 for Up to 50 browsers.</li>'
-        #                    '<li>$129 for unlimited usage up to 20 browsers.</li>'
-        #                    '<li>$79 for unlimited usage up to 10 browsers.</li>'
-        #                    '</ul>'
-        #                    '<p>NO limit number of requests per day. NO limit using day.</p>',
-        #     'info': [
-        #         {
-        #             'name': 'Last Update',
-        #             'value': 'August 05, 2019'
-        #         }
-        #
-        #     ],
-        #     'donators': [
-        #     ],
-        #     'keywords': 'autofill captcha, auto captcha, ssmms, ssmms auto captcha, ssmms auto fill, sand booking, sand in telangana, ssmms tricks, sand booking website, sand online booking, ssmms login quickly, ssmms fastly auto fill captcha, tsmdc online booking, bypass captcha, tmsdc auto captcha, tsmdc quickly login, captcha solver',
-        # }
+        {
+             'id': "6",
+            'listed': True,
+            'title': 'SSMMS auto captcha fastly | Online sand booking auto filling info with Tampermonkey script Greasemonkey script',
+             'short_title': 'SSMMS auto captcha & auto otp',
+            'price': 69,
+            'hit_donate': 100,
+            'total_donate': 15,
+           'slug_title': 'ssmms-auto-captcha-online-sand-booking-auto-fill-info',
+             'img': 'project6_2.png',
+             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/pmD1Lc6LsbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            'video_embed2': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1BG5NSqVnao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+           'description': '<p>Monkey script available for almost browsers. </p>'
+                          '<p><a href="https://www.dropbox.com/s/2qte27luehy6krv/WS_Auto_Otp_3.0.apk?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD WS_Auto_OTP ver 3: </a></p>'
+                          '<p><a href="https://www.dropbox.com/s/c0rg69dqespww5x/auto_captcha_5.6.js?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Auto captcha 5.6</a></>'
+                          '<p>Features:</p>'
+                           '<ul>'
+                           '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
+                          '<li>auto fill captcha 95% correct</li>'
+                          '<li>auto fill username, password</li>'
+                          '<li>auto login after 20s</li>'
+                          '<li>no limit IPs</li>'
+                          '<li>No limit devices</li>'
+                          '<li>support to install via teamviewer in case you need</li>'
+                          '</ul>'
+                            '<p>Make donation for above features and get resource.</p>',
+            'info': [
+                {
+                   'name': 'Last Update',
+                    'value': 'Septemper 25, 2019'
+               }
+        
+            ],
+            'donators': [
+            ],
+             'keywords': 'autofill captcha, auto captcha, ssmms, ssmms auto captcha, ssmms auto fill, sand booking, sand in telangana, ssmms tricks, sand booking website, sand online booking, ssmms login quickly, ssmms fastly auto fill captcha, tsmdc online booking, bypass captcha, tmsdc auto captcha, tsmdc quickly login, captcha solver',
+        }
     ]
 
     GPC_PROJECT_ID = os.environ['GCP_PROJECT_ID']
