@@ -331,6 +331,7 @@ class DefaultConfig(BaseConfig):
            'description': '<p>Monkey script available for almost browsers. </p>'
                           '<p><a href="https://www.dropbox.com/s/2qte27luehy6krv/WS_Auto_Otp_3.0.apk?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD WS_Auto_OTP ver 3: </a></p>'
                           '<p><a href="https://www.dropbox.com/s/c0rg69dqespww5x/auto_captcha_5.6.js?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Auto captcha 5.6</a></>'
+                          '<p><a href="https://www.dropbox.com/s/eantcj9d5cmxjkq/reload_page_unavailable.js?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Reload Page Unavailable</a></>'
                           '<p>Features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
