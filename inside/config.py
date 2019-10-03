@@ -328,11 +328,19 @@ class DefaultConfig(BaseConfig):
              'img': 'project6_2.png',
              'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/pmD1Lc6LsbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'video_embed2': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1BG5NSqVnao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-           'description': '<p>Monkey script available for almost browsers. </p>'
-                            #'<p><a href="https://www.dropbox.com/s/9rmngr5wjbnw0ni/bookmark_open_exactly_timer.txt?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Bookmark script open login page exactly time </a></p>'
-                          '<p><a href="https://www.dropbox.com/s/2qte27luehy6krv/WS_Auto_Otp_3.0.apk?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD WS_Auto_OTP ver 3: </a></p>'
-                          '<p><a href="https://www.dropbox.com/s/c0rg69dqespww5x/auto_captcha_5.6.js?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Auto captcha 5.6</a></>'
-                          '<p><a href="https://www.dropbox.com/s/eantcj9d5cmxjkq/reload_page_unavailable.js?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Reload Page Unavailable</a></>'
+           'description': '<p>SCRIPTS UPDATING..... </p>' 
+               '<p>Monkey script available for almost browsers. </p>'
+                          #'<p><a href="https://www.dropbox.com/s/9rmngr5wjbnw0ni/bookmark_open_exactly_timer.txt?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Bookmark script open login page exactly time </a></p>'
+                          #'<p><a href="https://www.dropbox.com/s/2qte27luehy6krv/WS_Auto_Otp_3.0.apk?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD WS_Auto_OTP ver 3: </a></p>'
+                          #'<p><a href="https://www.dropbox.com/s/c0rg69dqespww5x/auto_captcha_5.6.js?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Auto captcha 5.6</a></>'
+                          #'<p><a href="https://www.dropbox.com/s/eantcj9d5cmxjkq/reload_page_unavailable.js?dl=0" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Reload Page Unavailable</a></>'
+                          
+                          '<p><a class href="" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Bookmark script open login page exactly time </a></p>'
+                          '<p><a href="" style="color: blue; text-decoration: underline;">Click to DOWNLOAD WS_Auto_OTP ver 3: </a></p>'
+                          '<p><a href="" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Auto captcha 5.6</a></>'
+                          '<p><a href="" style="color: blue; text-decoration: underline;">Click to DOWNLOAD Reload Page Unavailable</a></>'
+                          
+                          
                           '<p>Features:</p>'
                            '<ul>'
                            '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
