@@ -63,6 +63,10 @@
                             <p>Demo video 2:</p>
                             <div>{{ project['video_embed2']|safe }}</div>
                         {% endif %}
+                        {% if 'video_embed3' in project %}
+                            <p>Demo video 3:</p>
+                            <div>{{ project['video_embed3']|safe }}</div>
+                        {% endif %}
                     {% endif %}
 
                 </div>
