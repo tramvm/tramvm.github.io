@@ -50,7 +50,7 @@ class DefaultConfig(BaseConfig):
 
             'description': '<p>Auto scripts for SSMMS.</p>'
                            '<p>Monkey script available for almost browsers. </p>'
-                           '<p><strong>One time payment, No fee more if have no changed. Unlimited requests for OTP. Unlimited captcha resolve daily</strong></p>'
+                           '<p><strong>One time payment, No charge more. Unlimited requests for OTP. Unlimited captcha resolve daily</strong></p>'
                            '<p>Features:</p>'
                            '<ul>'
                            '<li>auto fill captcha 95% correct</li>'
