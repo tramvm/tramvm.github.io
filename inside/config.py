@@ -53,7 +53,6 @@ class DefaultConfig(BaseConfig):
                            '<p><strong>One time payment, No fee more if have no changed. Unlimited requests for OTP. Unlimited captcha resolve daily</strong></p>'
                            '<p>Features:</p>'
                            '<ul>'
-                           '<li>work on: https://onlinebooking.sand.telangana.gov.in</li>'
                            '<li>auto fill captcha 95% correct</li>'
                            '<li>auto fill username, password</li>'
                            '<li>auto login after 20s</li>'
@@ -71,7 +70,7 @@ class DefaultConfig(BaseConfig):
             'info': [
                 {
                     'name': 'Last Update',
-                    'value': 'October 03, 2019'
+                    'value': 'October 05, 2019'
                 }
 
             ],
