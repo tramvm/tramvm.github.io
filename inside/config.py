@@ -53,7 +53,7 @@ class DefaultConfig(BaseConfig):
                            '<p><strong>One time payment, No charge more. Unlimited requests for OTP. Unlimited captcha resolve daily.</strong></p>'
                            '<p>Features:</p>'
                            '<ul>'
-                           '<li>auto fill captcha 95% correct</li>'
+                           '<li>auto fill captcha 99% correct</li>'
                            '<li>auto fill username, password</li>'
                            '<li>auto login after 20s</li>'
                            '<li>script and mobile app auto fill login OTP, vehicle OTP</li>'
