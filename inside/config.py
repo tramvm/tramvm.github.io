@@ -54,6 +54,8 @@ class DefaultConfig(BaseConfig):
                            '<p>Features:</p>'
                            '<ul>'
                            '<li>Provide Original script without encrypt. So you can integrate with your script or customize.</li>'
+                           '<li><strong>Manual reload captcha (50% success)</strong></li>'
+                           '<li>show Login button after timer</li>'
                            '<li>auto fill captcha 99% correct</li>'
                            '<li>auto fill username, password</li>'
                            '<li>auto login after 20s</li>'
@@ -71,7 +73,7 @@ class DefaultConfig(BaseConfig):
             'info': [
                 {
                     'name': 'Last Update',
-                    'value': 'October 05, 2019'
+                    'value': 'October 13, 2019'
                 }
 
             ],
