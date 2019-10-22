@@ -39,7 +39,7 @@ class DefaultConfig(BaseConfig):
             'listed': True,
             'title': 'SSMMS auto captcha fastly | Online sand booking auto filling info with Tampermonkey script Greasemonkey script',
             'short_title': 'SSMMS auto captcha & auto otp',
-            'price': 69,
+            'price': 79,
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'ssmms-auto-captcha-online-sand-booking-auto-fill-info',
@@ -73,7 +73,7 @@ class DefaultConfig(BaseConfig):
             'info': [
                 {
                     'name': 'Last Update',
-                    'value': 'October 13, 2019'
+                    'value': 'October 20, 2019'
                 }
 
             ],
