@@ -48,7 +48,7 @@ class DefaultConfig(BaseConfig):
             'video_embed2': '<iframe width="560" height="315" src="https://www.youtube.com/embed/pmD1Lc6LsbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'video_embed3': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1BG5NSqVnao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 
-            'description': '<p>Discounting to day, Only $59 for 10 IDs login daily in 35 days with SSMMS auto and quickly fill OTP, Auto captcha, Many tricks and guideline to get DD daily.</p>'
+            'description': '<p>Discounting today only, Only $59 for 10 IDs login daily in 35 days with SSMMS auto and quickly fill OTP, Auto captcha, Many tricks and guideline to get DD daily.</p>'
                            '<p>Monkey script available for almost browsers. </p>'
                            '<p>Features:</p>'
                            '<ul>'
