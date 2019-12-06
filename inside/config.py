@@ -38,7 +38,7 @@ class DefaultConfig(BaseConfig):
             'id': "6",
             'listed': True,
             'title': 'SSMMS auto captcha fastly | Online sand booking auto filling info with Tampermonkey script Greasemonkey script',
-            'short_title': '$49 using SSMMS auto captcha & auto otp & auto fill',
+            'short_title': '$30 using SSMMS auto captcha & auto otp & auto fill',
             'price': 30,
             'hit_donate': 100,
             'total_donate': 15,
