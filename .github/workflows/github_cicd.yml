@@ -1,0 +1,14 @@
+name:
+  workspace.tramvm.com
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build_deploy:
+    name: Workspace Website
+    runs-on: self-hosted
+    steps:
+      - name: Call script
+          env: prod
+          run: "docker-compose up -d --build"
