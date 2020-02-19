@@ -11,7 +11,9 @@ jobs:
     steps:
       - name: echo path
         run: "echo $PWD"
-      - name: Call script
+      - uses: actions/checkout@v2
+      - name: Build & Deploy docker
         env:
           name: prod
-        run: "docker-compose up -d --build"
+        run: |
+          docker-compose up -d --build
