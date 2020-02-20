@@ -279,7 +279,7 @@ class DefaultConfig(BaseConfig):
         {
             'id': "4",
             'listed': True,
-            'title': 'Rohtang permits auto fill info',
+            'title': 'Rohtang permits auto fill info ',
             'short_title': 'Rohtang permits auto fill info version 2.0',
             'price': 35,
             'hit_donate': 100,
