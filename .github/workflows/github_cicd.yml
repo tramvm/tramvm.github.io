@@ -15,4 +15,7 @@ jobs:
         env:
           name: prod
         run: |
+          echo $PWD
+          cp -rf /webapps/actions-runner/workspace.tramvm.com/workspace-tramvm-com/workspace-tramvm-com /webapps
+          cd /webapps/workspace-tramvm-com
           docker-compose up -d --build
