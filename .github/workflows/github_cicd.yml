@@ -9,9 +9,9 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Echo path
-        run: "echo $PWD"
+        run: echo $PWD
       - uses: actions/checkout@master
-      - uses: Copy source code
+      - name: Copy source code
         run: |
           cp -rf /webapps/actions-runner/workspace.tramvm.com/workspace-tramvm-com/workspace-tramvm-com /webapps
           cd /webapps/workspace-tramvm-com
