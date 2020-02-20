@@ -8,14 +8,16 @@ jobs:
     name: Workspace Website
     runs-on: self-hosted
     steps:
-      - name: echo path
-        run: "echo $PWD"
+      - name: Echo path
+        run: echo $PWD
       - uses: actions/checkout@master
+      - uses: Copy source code
+        run: |
+          cp -rf /webapps/actions-runner/workspace.tramvm.com/workspace-tramvm-com/workspace-tramvm-com /webapps
+          cd /webapps/workspace-tramvm-com
       - name: Build & Deploy docker
         env:
           name: prod
         run: |
           echo $PWD
-          cp -rf /webapps/actions-runner/workspace.tramvm.com/workspace-tramvm-com/workspace-tramvm-com /webapps
-          cd /webapps/workspace-tramvm-com
           docker-compose up -d --build
