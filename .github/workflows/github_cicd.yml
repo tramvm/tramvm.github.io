@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: echo path
         run: "echo $PWD"
-      - uses: actions/checkout%@master
+      - uses: actions/checkout@master
       - name: Build & Deploy docker
         env:
           name: prod
