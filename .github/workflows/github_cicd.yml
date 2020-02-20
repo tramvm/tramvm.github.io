@@ -1,5 +1,4 @@
-name:
-  workspace.tramvm.com
+name: workspace.tramvm.com
 on:
   push:
     branches:
