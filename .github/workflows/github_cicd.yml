@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Copy source code
         run: |
-          cp -rf /webapps/actions-runner/workspace.tramvm.com/workspace-tramvm-com/workspace-tramvm-com /webapps
+          cp -rf . /webapps/workspace-tramvm-com
           cd /webapps/workspace-tramvm-com
       - name: Build & Deploy docker
         env:
