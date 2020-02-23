@@ -299,7 +299,11 @@ class DefaultConfig(BaseConfig):
                            '</ul>'
                            '<p>After get extension via email, extract it using winrar. After that you just replace demo data by your personal data in file content.js from line 161 to line 179. Then import extension to your chrome and use.</p>'
                            '<p>No need to install any additional software.</p>'
-                           '<p>If you need this extension, just make donation and get the extension.</p>',
+                           '<p>If you need this extension, just make donation and get the extension.</p>'
+                           '<p>For Request Tourism Permits, Rohtang Pass, Special Rohtang Pass, Beyond Rohtang, Green Tax.
+Rohtang Pass. It is a high mountain pass on the eastern Pir Panjal Range of the Himalayas around 51 km from Manali. It connects the Kullu Valley with the Lahaul and Spiti Valleys of Himachal Pradesh, India.
+</p><p>Rohtang Pass Permit for Tourism:<br/>
+This type of permit is issued to tourists for tourism purposes to visit Rohtang Pass only. This Permit is issued on a daily basis with a quota of 1200 permits in a day. The permit is issued as per the daily quota of 400 Diesel vehicles and 800 Petrol vehicles</p>',
             'info': [
                 {
                     'name': 'Last Update',
