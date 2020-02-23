@@ -287,7 +287,7 @@ class DefaultConfig(BaseConfig):
             'slug_title': 'fastly-rohtang-permit',
             'img': 'project4_2.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/TPKhLzFxOVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            'description': '<p><strong>Only pay attention if you need quick booking on Rohtang Pass Permits. Only $30 for 30 days for 30 days season 2020. Please send an email <strong>workspace.gold@gmail.com</strong> to get demo video if you need.</strong></p>'
+            'description': '<p><strong>Only pay attention if you need quick booking on Rohtang Pass Permits. Only $30 for 30 days for season 2020. Please send an email <strong>workspace.gold@gmail.com</strong> to get demo video if you need.</strong></p>'
                            '<p>Monkey script features:</p>'
                            '<ul>'
                            '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
