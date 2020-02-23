@@ -281,13 +281,13 @@ class DefaultConfig(BaseConfig):
             'listed': True,
             'title': 'Rohtang permits auto fill info ',
             'short_title': 'Rohtang permits auto fill info & captcha version 3.0',
-            'price': 35,
+            'price': 30,
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'fastly-rohtang-permit',
             'img': 'project4_2.png',
             'video_embed': '<iframe width="560" height="315" src="https://www.youtube.com/embed/blBGvf8G_8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            'description': '<p><strong>Only pay attention if you need quick booking on Rohtang. Only $35 for 30 days. Please send an email <strong>workspace.gold@gmail.com</strong> to get demo video if you need.</strong></p>'
+            'description': '<p><strong>Only pay attention if you need quick booking on Rohtang Pass Permits. Only $30 for 30 days for 30 days season 2020. Please send an email <strong>workspace.gold@gmail.com</strong> to get demo video if you need.</strong></p>'
                            '<p>Monkey script features:</p>'
                            '<ul>'
                            '<li> work on: Rohtang Pass, Green tax, Special Permit </li>'
