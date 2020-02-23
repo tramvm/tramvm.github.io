@@ -281,7 +281,7 @@ class DefaultConfig(BaseConfig):
             'listed': True,
             'title': 'Rohtang permits auto fill info ',
             'short_title': 'Rohtang permits auto fill info & captcha version 3.0',
-            'price': 35,
+            'price': 30,
             'hit_donate': 100,
             'total_donate': 15,
             'slug_title': 'fastly-rohtang-permit',
