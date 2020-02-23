@@ -279,7 +279,7 @@ class DefaultConfig(BaseConfig):
         {
             'id': "4",
             'listed': True,
-            'title': 'Rohtang permits auto fill info ',
+            'title': 'Rohtang Pass permits auto fill season 2020',
             'short_title': 'Rohtang permits auto fill info & captcha version 3.0',
             'price': 30,
             'hit_donate': 100,
