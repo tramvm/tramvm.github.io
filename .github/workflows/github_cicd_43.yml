@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   build_deploy:
-    name: Workspace Website
+    name: Workspace Website 1
     runs-on: self-hosted
     steps:
       - name: Echo path
