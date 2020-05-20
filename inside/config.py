@@ -72,7 +72,7 @@ class DefaultConfig(BaseConfig):
             'info': [
                 {
                     'name': 'Last Update',
-                    'value': 'December 05, 2019'
+                    'value': 'May 5, 2020'
                 }
 
             ],
