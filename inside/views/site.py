@@ -12,7 +12,7 @@ site = Blueprint('site', __name__)
 @site.route('/index')
 def index():
     projects = current_app.config['PROJECTS']
-    page_title = "Source code How to recognize bubble sheet with Android and OpenCV"
+    page_title = "Get DD daily with SSMMS auto booking scripts from WS"
     return render_template('index.html', projects=projects, page_title=page_title)
 
 
