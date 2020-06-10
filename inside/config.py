@@ -48,10 +48,11 @@ class DefaultConfig(BaseConfig):
             'video_embed2': '<iframe width="560" height="315" src="https://www.youtube.com/embed/pmD1Lc6LsbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             'video_embed3': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1BG5NSqVnao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 
-            'description': '<p>Discounting today only, Only <strong>$29 for 10 IDs</strong> login daily in <strong>30 days</strong> with SSMMS auto and quickly fill OTP, Auto captcha, Many tricks and guideline to get DD daily.</p>'
+            'description': '<p>Only <strong>$29 for 10 IDs</strong> login daily in <strong>30 days</strong> with SSMMS auto and quickly fill OTP, Auto captcha, Many tricks and guideline to get DD daily.</p>'
                            '<p>Monkey script available for almost browsers. If you need <strong>All SOURCE CODE</strong> for auto captcha and auto OTP, cost is $333. Include FREE deploy and FREE subdomain under dosomethingman.com. </p>'
                            '<p>Features:</p>'
                            '<ul>'
+                           '<li><strong>Login timer killer.</strong></li>'
                            '<li>Provide Original script without encrypt. So you can integrate with your script or customize.</li>'
                            '<li><strong>Manual reload captcha (50% success)</strong></li>'
                            '<li>show Login button after timer</li>'
@@ -72,7 +73,7 @@ class DefaultConfig(BaseConfig):
             'info': [
                 {
                     'name': 'Last Update',
-                    'value': 'May 5, 2020'
+                    'value': 'June 10, 2020'
                 }
 
             ],
