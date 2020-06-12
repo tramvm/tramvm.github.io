@@ -53,6 +53,7 @@ class DefaultConfig(BaseConfig):
                            '<p>Features:</p>'
                            '<ul>'
                            '<li><strong>Login timer killer.</strong></li>'
+                           '<li><strong>Bookmarks waiting list.</strong></li>'
                            '<li>Provide Original script without encrypt. So you can integrate with your script or customize.</li>'
                            '<li><strong>Manual reload captcha (50% success)</strong></li>'
                            '<li>show Login button after timer</li>'
@@ -73,7 +74,7 @@ class DefaultConfig(BaseConfig):
             'info': [
                 {
                     'name': 'Last Update',
-                    'value': 'June 10, 2020'
+                    'value': 'June 11, 2020'
                 }
 
             ],
