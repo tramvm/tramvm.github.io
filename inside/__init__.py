@@ -13,7 +13,7 @@ from inside.config import DefaultConfig, APP_NAME
 from inside.views import site
 from inside.extensions import db, mail, login_manager, sentry_client #, task_client
 from inside import extensions
-from inside.libs.rsession import RedisSessionInterface
+#from inside.libs.rsession import RedisSessionInterface
 from raven.middleware import Sentry
 
 
@@ -57,7 +57,7 @@ def configure_app(app, config):
 
 
 def configure_extensions(app):
-    app.session_interface = RedisSessionInterface()
+    #app.session_interface = RedisSessionInterface()
     # sqlalchemy
     db.init_app(app)
 

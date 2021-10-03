@@ -52,6 +52,6 @@ sentry_client = Client(os.environ['SENTRY_DSN'])
 #import os
 #os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/webapps/inside/inside/client_key.json"
 
-from .libs import TaskClient
+#from .libs import TaskClient
 
 #task_client = TaskClient()

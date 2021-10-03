@@ -23,8 +23,8 @@ import base64
 from slugify import slugify
 from unidecode import unidecode
 from paypalrestsdk import Order, ResourceNotFound
-from rijndael.cipher.crypt import new as newRij
-from rijndael.cipher.blockcipher import MODE_CBC
+#from rijndael.cipher.crypt import new as newRij
+#from rijndael.cipher.blockcipher import MODE_CBC
 import uuid
 
 
@@ -1306,19 +1306,19 @@ def initKey():
     KEY = KEY_HEX.decode("hex")
     IV = IV_HEX.decode("hex")
 
-def enc(data):
-    initKey()
-    rjn = newRij(KEY, MODE_CBC, IV, blocksize=BLOCK_SIZE)
-    output = rjn.encrypt(data)
-    result = base64.urlsafe_b64encode(output)
-    return result
+# def enc(data):
+#     initKey()
+#     rjn = newRij(KEY, MODE_CBC, IV, blocksize=BLOCK_SIZE)
+#     output = rjn.encrypt(data)
+#     result = base64.urlsafe_b64encode(output)
+#     return result
 
-def dec(data):
-    initKey()
-    input = base64.urlsafe_b64decode(data)
-    rjn = newRij(KEY, MODE_CBC, IV, blocksize=BLOCK_SIZE)
-    output = rjn.decrypt(input)
-    return output
+# def dec(data):
+#     initKey()
+#     input = base64.urlsafe_b64decode(data)
+#     rjn = newRij(KEY, MODE_CBC, IV, blocksize=BLOCK_SIZE)
+#     output = rjn.decrypt(input)
+#     return output
 
 def generate_key():
     data = str(uuid.uuid4()).replace('-', '1').upper()
