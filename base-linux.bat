@@ -1,3 +1,4 @@
+timedatectl set-timezone Asia/Ho_Chi_Minh
 echo "Go root folder"
 cd ..
 cd ..
@@ -21,3 +22,4 @@ echo "Install docker compose via pip"
 apt install python3-pip
 pip install docker-compose
 docker network create same-network
+
