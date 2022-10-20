@@ -52,7 +52,6 @@ class DefaultConfig(BaseConfig):
                            '<p>Monkey script available for almost browsers. If you need <strong>All SOURCE CODE</strong> for auto captcha and auto OTP, cost is $450. Include FREE deploy and FREE subdomain under dosomethingman.com. </p>'
                            '<p>Features:</p>'
                            '<ul>'
-                           '<li><strong>Login timer killer.</strong></li>'
                            '<li><strong>Bookmarks waiting list.</strong></li>'
                            '<li>Provide Original script without encrypt. So you can integrate with your script or customize.</li>'
                            '<li><strong>Manual reload captcha (50% success)</strong></li>'
@@ -74,7 +73,7 @@ class DefaultConfig(BaseConfig):
             'info': [
                 {
                     'name': 'Last Update',
-                    'value': 'June 11, 2020'
+                    'value': 'Oct 10, 2022'
                 }
 
             ],
