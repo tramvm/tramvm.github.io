@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+{% from '_helpers.html' import render_sitem with context %}
+
+{% block body %}
+<div class="span2" id="sidebar">
+    <div class="account-container">
+        <div class="account-avatar">
+            <img class="thumbnail" alt="" src="/static/img/no-avatar.png">
+        </div> <!-- /account-avatar -->
+        <div class="account-details">
+            <span class="account-name">{{ u.display_name }}</span>
+            <span class="account-actions">
+                {{link_to('account.profile', 'Profile', cls='pjax')}} | 
+                {{link_to('account.settings', 'Preferences', cls='pjax')}}
+                <br/>
+                {{link_to('account.change_password', 'Change password', cls='pjax')}}
+            </span>
+        </div> <!-- /account-details -->
+    </div>
+    <hr>
+
+    <div style="padding: 4px 0;">
+        <style>
+          .menu-ul>li{
+            margin-left:20px;
+          }
+        </style>
+        {% for item in user_role['menu']: %}
+          <h3><i class="{{item['icon']}}"></i> {{item['name']}}</h3>
+          <ul class="nav nav-list menu-ul" style="padding-left:10px">
+            {% for chil in item['children']: %}    
+            <li class="menu-item" dataurl="/{{chil.get('prefix')}}/{% if chil.get('url_tag') != None %}{{chil.get('url_tag')}}{% endif %}" >
+                <a class="pjax" href="/{{chil.get('prefix')}}/{% if chil.get('url_tag') != None %}{{chil.get('url_tag')}}{% endif %}"><i class=""></i> {{chil.get('name')}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
+        
+    </div>
+</div>
+<div id="body_content" class="row-fluid span10">
+    <div id='main' class="well " style='overflow:auto;'>
+    {% block main%}
+    {% endblock %}
+    </div>
+</div>
+{% endblock %}
+
+{% block js_plugins %}
+{{super()}}
+{{ add_js('jquery.pjax.min') }}
+    <script>
+        $(document).ready(function () {
+            $('li.active').removeClass('active');
+            uri = window.location.pathname;
+            var list_menu= $('li.menu-item');
+            list_menu.each(function( index, item ) {
+                var url_item = item.getAttribute('dataurl');
+                if (uri.indexOf(url_item) >= 0){
+                    $(this).addClass('active');
+                }
+            });
+        });
+    </script>
+{% endblock %}

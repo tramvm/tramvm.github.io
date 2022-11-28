@@ -1,0 +1,38 @@
+version: "2.4"
+services:
+  site_space:
+    build: .
+    ports:
+    - "9079:8000"
+    env_file:
+    - ./env_files/local.env
+    external_links:
+      - redis
+      - mongo
+    networks:
+      - same-network
+    restart: always
+#  mongo:
+#    container_name: mongo_test
+#    image: mongo
+#    command: --smallfiles
+#    restart: always
+#    volumes:
+#    - /data/mongodb:/data/db
+#    ports:
+#    - "27017:27017"
+#    networks:
+#    - same-network
+#  redis:
+#    container_name: redis_test
+#    image: redis:3.2.11-alpine
+#    entrypoint: redis-server --stop-writes-on-bgsave-error no
+#    restart: always
+#    ports:
+#    - "6379:6379"
+#    networks:
+#    - same-network
+
+networks:
+  same-network:
+    external: true

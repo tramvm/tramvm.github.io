@@ -1,0 +1,116 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <!-- Header section
+    ================================================== -->
+    <section id="header" class="header-two">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+                    <div class="header-thumb">
+                        <h1 class="wow fadeIn" data-wow-delay="0.2s">{{ project['short_title'] }}</h1>
+                        <!--<h1 class="wow fadeInUp" data-wow-delay="0.2s" style="color: red">Discount 40% for first 5 order this month</h1>-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Single Project section
+    ================================================== -->
+    <section id="single-project">
+        <div class="container">
+            <div class="row">
+
+                <div class="wow fadeInUp col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-4" data-wow-delay="0.2s">
+                    {% for item in project['info'] %}
+                        <div class="project-info">
+                            <h4>{{ item['name'] }}</h4>
+                            <p>{{ item['value'] }}</p>
+                        </div>
+                    {% endfor %}
+                    {% if project['id'] != '16' %}
+                        <a href="https://www.paypal.me/tramvm/{{ project['price'] }}" target="_blank"
+                           class="btn btn-warning  btn-lg btn-block" style="color: #242424">
+                            {% if project['id'] == '6' %}
+                                Make payment now
+                            {% else %}
+                                Donate and receive source code
+                            {% endif %}
+                        </a>
+                    {% endif %}
+                    <div id="paypal-button-containerXX" class="col-md-2 col-sm-7"></div>
+                </div>
+
+                <div class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="0.2s" style="font-family: sans-serif;">
+                    {{ project['description']|safe }}
+                    {% if project['id'] == 'X4' %}
+                        <p>Send an email for demo video</p>
+                        <img src="/static/images/{{ project['img'] }}" class="img-responsive"
+                             alt="Portfolio">
+                    {% else %}
+                        {% if project['id'] == '6X' %}
+                            <p>Bitcoin wallet: <strong>1HkwGvQgpgztNYdPus2FFMCXzeNpWMzNV</strong></p>
+                            <p><img src="/static/images/bitcoin_qrcode.png" class="img-responsive"
+                                    style="width: 200px;"></p>
+                        {% endif %}
+                        <p>Demo video 1:</p>
+                        <div>{{ project['video_embed']|safe }}</div>
+                        {% if 'video_embed2' in project %}
+                            <p>Demo video 2:</p>
+                            <div>{{ project['video_embed2']|safe }}</div>
+                        {% endif %}
+                        {% if 'video_embed3' in project %}
+                            <p>Demo video 3:</p>
+                            <div>{{ project['video_embed3']|safe }}</div>
+                        {% endif %}
+                    {% endif %}
+
+                </div>
+            </div>
+
+            <div class="row">
+                <hr>
+            </div>
+
+            <div class="alert alert-success" role="alert" style="text-align: center"><h4>Thank you for your time and payment.</h4></div>
+            {% for item in project['donators'] %}
+                <div class="wow fadeInUp col-md-3 col-sm-3 alert alert-success" data-wow-delay="0.1s"
+                     style="color: #155724 !important;">
+                    <p class="alert-heading"><strong>{{ item['name'] }} ${{ item['value'] }}</strong></p>
+                    <p>From {{ item['country'] }}</p>
+                </div>
+            {% endfor %}
+
+            <!--
+            <div class="row">
+                <hr>
+            </div>
+
+            <div class="row">
+                <div class="project-info">
+                    <div class="alert alert-success" role="alert" style="text-align: center"><h4>Ready to publish code</h4>
+                        <div class="progress text-center">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                     aria-valuenow="{{ project['total_donate'] }}" aria-valuemin="0"
+                                     aria-valuemax="{{ project['hit_donate'] }}"
+                                     style="width: {{ ( project['total_donate']/project['hit_donate'])*100 }}%;">
+                                    <span>${{ project['total_donate'] }}</span>
+                                </div>
+                                <span>${{ project['hit_donate'] - project['total_donate'] }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            -->
+        </div>
+        <script>
+        </script>
+    </section>
+
+{% endblock %}

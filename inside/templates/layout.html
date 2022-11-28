@@ -1,0 +1,157 @@
+{% from "_helpers.html" import add_js, link_to %}
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}
+        {{ page_title|default(_('Get DD daily with SSMMS auto booking scripts from WS')) }}{% endblock %}</title>
+    <meta name="keywords" content="{{ keywords|default(_('ssmms, sand booking, ssmms tricks, auto captcha, vgrade, omr, recognize sheet, sheet scanner, omr scanner, omr scanning, sheet recognize, exam scanner, omr reader, recognize table, recognize bubble, quiz scanner, quiz reader, grading, bubble scanner, omr solution, Optical Mark Recognition, cham trac nghiem, multiple choice, zipgrade cheat, scan ljk, koreksi ljk')) }}"/>
+    <meta name="description" content="Source code Recognize bubble sheet with Android + OpenCV & Donate">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website" />
+    <link rel="Shortcut Icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    {% block css %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/ionicons.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    {% endblock %}
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+
+    <!-- Global site tag (gtag.js) - Google Ads: 743569301 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-743569301"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'AW-743569301');
+    </script>
+    <!-- Event snippet for Website traffic conversion page -->
+    <script>
+        gtag('event', 'conversion', {'send_to': 'AW-743569301/qKiICJSvmtEBEJXvx-IC'});
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134943627-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-134943627-1');
+    </script>
+
+    <script data-ad-client="ca-pub-6227408933221460" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <script async custom-element="amp-auto-ads"
+            src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+
+</head>
+<body>
+
+
+<amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-6227408933221460">
+</amp-auto-ads>
+
+<!-- Preloader section
+================================================== -->
+<div class="preloader">
+
+    <div class="sk-spinner sk-spinner-pulse"></div>
+
+</div>
+
+
+<!-- Navigation section
+================================================== -->
+<div class="nav-container">
+    <nav class="nav-inner transparent">
+
+        <div class="navbar">
+            <div class="container">
+                <div class="row">
+
+                    <div class="brand">
+                        <a href="{{ url_for('site.index') }}">WorkSpace</a>
+                    </div>
+
+                    <div class="navicon">
+                        <div class="menu-container">
+
+                            <div class="circle dark inline">
+                                <i class="icon ion-navicon"></i>
+                            </div>
+
+                            <div class="list-menu">
+                                <i class="icon ion-close-round close-iframe"></i>
+                                <div class="intro-inner">
+                                    <ul id="nav-menu">
+                                        <li><a href="{{ url_for('site.index') }}">Home</a></li>
+                                        <!--<li><a href="{{ url_for('site.about') }}">About</a></li>-->
+                                        <li><a href="http://blog.tramvm.com/" target="_blank">Blog</a></li>
+                                        <li><a href="{{ url_for('site.contact') }}">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </nav>
+</div>
+
+<div class="container-fluid">
+    <div class="content">
+        <div class="row-fluid">
+            {% block body %}
+            {% endblock %}
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 col-sm-12">
+                    <p class="wow fadeInUp" data-wow-delay="0.3s" style="color: #AAA !important">Copyright © 2018-2020 WorkSpace Gold</p>
+                    <ul class="social-icon wow fadeInUp" data-wow-delay="0.3s">
+                        <li><a href="https://www.youtube.com/channel/UCwI-PmUd0-uLEw-UbP-gXqQ" target="_blank"
+                               class="fa fa-youtube"></a></li>
+                        <li><a href="https://github.com/vmtram" target="_blank" class="fa fa-github"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-google-plus"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</div>
+{% block js_plugins %}
+    {{ add_js('jquery', 'bootstrap.min', 'isotope', 'wow.min', 'custom') }}
+    <script>
+
+    </script>
+{% endblock %}
+</body>
+</html>
