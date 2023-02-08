@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import (Blueprint, render_template, current_app, redirect, request, send_from_directory, safe_join)
-from ..utils import sentry_log_activity, get_ssmms_link
+from ..utils import sentry_log_activity, get_ssmms_link, tele_log_activiity
 import json
 
 site = Blueprint('site', __name__)
@@ -92,7 +92,8 @@ def message():
     }
     print "================ Message ==================="
     print data
-    sentry_log_activity('User message to contact ' + request.form['email'], data)
+    #sentry_log_activity('User message to contact ' + request.form['email'], data)
+    tele_log_activiity('User message to contact ' + request.form['email'] + '. message: ' + request.form['message'])
     return redirect('index')
 
 
@@ -101,7 +102,6 @@ def message():
 def single_post():
     page_title = "About Source code How to recognize bubble sheet with Android and OpenCV"
     return render_template('single-post.html', page_title=page_title)
-
 
 @site.route('/robots.txt')
 @site.route('/favicon.ico')
