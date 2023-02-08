@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import (Blueprint, render_template, current_app, redirect, request, send_from_directory, safe_join)
-from ..utils import sentry_log_activity, get_ssmms_link, tele_log_activiity
+from ..utils import sentry_log_activity, get_ssmms_link, tele_log_activity
 import json
 
 site = Blueprint('site', __name__)
@@ -93,7 +93,7 @@ def message():
     print "================ Message ==================="
     print data
     #sentry_log_activity('User message to contact ' + request.form['email'], data)
-    tele_log_activiity('User message to contact ' + request.form['email'] + '. message: ' + request.form['message'])
+    tele_log_activity('User ' + request.form['name'] + ' contact ' + request.form['email'] + '. message: ' + request.form['message'])
     return redirect('index')
 
 

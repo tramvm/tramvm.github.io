@@ -280,10 +280,10 @@ def sentry_log_activity(msg, data, level='info'):
     return 'done'
 
 
-def tele_log_activiity(msg, msg_type="text"):
+def tele_log_activity(msg, msg_type="text"):
     apiToken = '602428736:AAHn3412AGyQO1d3vPxxRlkj_pltpQ133XY'
     chatID = '-1001859466945'
-    apiURL = f'https://api.telegram.org/bot{apiToken}/sendMessage'
+    apiURL = 'https://api.telegram.org/bot' + apiToken + '/sendMessage'
 
     try:
         response = requests.post(apiURL, json={'chat_id': chatID, msg_type: msg})
